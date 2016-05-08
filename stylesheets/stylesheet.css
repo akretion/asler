@@ -2,8 +2,6 @@
 
 /*------------------------------------------------------------------
 
-Code réalisé par Côme de La Chapelle
-
 [Sommaire]
 
 01. Style général
@@ -34,6 +32,6 @@ li {}
   XX. Footer
 ================================================================== */
 
-footer {}
+footer {background: #cccccc;}
 
 
