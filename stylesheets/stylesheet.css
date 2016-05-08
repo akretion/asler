@@ -32,6 +32,6 @@ li {}
   XX. Footer
 ================================================================== */
 
-footer {background: #cccccc;}
+footer a {color: red;}
 
 
