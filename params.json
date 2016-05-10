@@ -5,4 +5,6 @@
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
 
-AddType text/css .css
+<IfModule mod_mime.c>
+	AddType text/css .css
+</IfModule>
