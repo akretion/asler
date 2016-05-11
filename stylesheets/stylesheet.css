@@ -1,6 +1,45 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+
+https://localhost:8443/asler/styles.css
+
+[Sommaire]
+
+01. Style général
+02. 
+03. 
+04. 
+05. 
+06. 
+07. 
+08. 
+09. 
+10. 
+
+-------------------------------------------------------------------*/
+
+/*===================================================================
+  01. General styles
+================================================================== */
+
 a {
     color: #535353;
 }
+
+a:hover, //------------------------ mettre avec <a> plus tard
+a:focus {
+  color: #535353;
+  text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*===================================================================
+  XX. Branding Header
+================================================================== */
 
 .navbar-default {
 	background: #ffffff;
@@ -9,7 +48,7 @@ a {
 .navbar {
 	background-image: none;
 	border: none;
-	padding: 8px 0px 8px 0px;
+	padding: 12px 0px 12px 0px;
 }
 
 .navbar-right > li > a {
@@ -18,6 +57,155 @@ a {
 
 @media (min-width: 768px) {
 	.navbar-nav.navbar-right:last-child {
-	    margin-right: 0px;
+	  margin-right: 0px;
 	}
 }	
+
+/*===================================================================
+  XX. Navbar (1st category level)
+================================================================== */
+
+.nav-tabs {
+  height: 52px;/*à enlever à la fin*/
+  background: #EEF1F2;
+	border-bottom: none;
+  margin-bottom: 27px;
+}
+
+.nav.nav-tabs > li > a {
+  margin-right: 0px;
+  line-height: 1.42857143;
+  border-radius: 0px;
+  padding: 16px 9px 12px 9px;
+  border: none;
+}
+
+.nav.nav-tabs > li > a:hover {
+  background: #FFFFFF;
+  color: inherit;    
+}
+
+.nav.nav-tabs > li.active > a,
+.nav.nav-tabs > li.active > a:hover,
+.nav.nav-tabs > li.active > a:focus {
+  background: #FFFFFF;
+  color: #535353;;
+  padding: 12px 5px 12px 5px;
+}
+
+/* nav-tabs border color */
+
+a[aria-controls="tab_bon-plan-350"]                                              { border-bottom: 4px solid #166BA2 !important; }
+a[aria-controls="tab_chariots-a-livres-275"]                                     { border-bottom: 4px solid #1691BE !important; }
+a[aria-controls="tab_consultation-intercalaires-et-serre-livres-28"]             { border-bottom: 4px solid #e74c3c !important; }
+a[aria-controls="tab_entretien-des-livres-2"]                                    { border-bottom: 4px solid #FFBA00 !important; }
+a[aria-controls="tab_entretien-des-medias-13"]                                   { border-bottom: 4px solid #25C289 !important; }
+a[aria-controls="tab_etiquetage-personnalisations-69"]                           { border-bottom: 4px solid #8e44ad !important; }
+a[aria-controls="tab_mobilier-85"]                                               { border-bottom: 4px solid #166BA2 !important; }
+a[aria-controls="tab_others-1"]                                                  { border-bottom: 4px solid #1691BE !important; }
+a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
+a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
+a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
+a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
+a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
+
+li.active > a[aria-controls="tab_bon-plan-350"]                                  { border: 4px solid #166BA2 !important; }
+li.active > a[aria-controls="tab_chariots-a-livres-275"]                         { border: 4px solid #1691BE !important; }
+li.active > a[aria-controls="tab_consultation-intercalaires-et-serre-livres-28"] { border: 4px solid #e74c3c !important; }
+li.active > a[aria-controls="tab_entretien-des-livres-2"]                        { border: 4px solid #FFBA00 !important; }
+li.active > a[aria-controls="tab_entretien-des-medias-13"]                       { border: 4px solid #25C289 !important; }
+li.active > a[aria-controls="tab_etiquetage-personnalisations-69"]               { border: 4px solid #8e44ad !important; }
+li.active > a[aria-controls="tab_mobilier-85"]                                   { border: 4px solid #166BA2 !important; }
+li.active > a[aria-controls="tab_others-1"]                                      { border: 4px solid #1691BE !important; }
+li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
+li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
+li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
+li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
+li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
+
+/*===================================================================
+  XX. Tab-content (2nd category level)
+================================================================== */
+
+div#tab_bon-plan-350.tab-pane.active > div > a                                   { background: #166BA2; }
+div#tab_chariots-a-livres-275.tab-pane.active > div > a                          { background: #1691BE; }
+div#tab_consultation-intercalaires-et-serre-livres-28.tab-pane.active > div > a  { background: #e74c3c; }
+div#tab_entretien-des-livres-2.tab-pane.active > div > a                         { background: #FFBA00; }
+div#tab_entretien-des-medias-13.tab-pane.active > div > a                        { background: #25C289; }
+div#tab_etiquetage-personnalisations-69.tab-pane.active > div > a                { background: #8e44ad; }
+div#tab_mobilier-85.tab-pane.active > div > a                                    { background: #166BA2; }
+div#tab_others-1.tab-pane.active > div > a                                       { background: #1691BE; }
+div#tab_personnalisation-323.tab-pane.active > div > a                           { background: #6D6D6D; }
+div#tab_pour-enfants-283.tab-pane.active > div > a                               { background: #6D6D6D; }
+div#tab_presentation-affichage-expo-236.tab-pane.active > div > a                { background: #6D6D6D; }
+div#tab_transport-rangement-218.tab-pane.active > div > a                        { background: #6D6D6D; }
+div#tab_utilitaires-et-informatique-304.tab-pane.active > div > a                { background: #6D6D6D; }
+
+.tab-pane.active {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.tab-pane.active > div {
+	width: 33.333%;
+  height: 140px;
+	float: left;
+  margin: 20px 0px 30px 0px;
+}
+
+.tab-pane.active > div::before {}
+
+.tab-pane.active > div::after {}
+
+.tab-pane.active > div > a,
+.tab-pane.active > div > a:focus,
+.tab-pane.active > div > a:active {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 80%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 11px 0px 11px 134px;
+  text-decoration: none;
+}
+
+.tab-pane.active > div > a::before {
+  content: '';
+  width: 108px;
+  height: 108px;
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 14px;
+  background: linear-gradient(to bottom right, #C3C3C5, white);
+  /*background-image: url('https://localhost:8443/test/image-test.jpg');*/
+  background-size: cover;
+}
+
+.tab-pane.active > div > a::after {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  left: 10%;
+  border-radius: 50%;
+  z-index: -1;
+  bottom: 5px;
+  content: "";
+  box-shadow: 0 7px 16px rgba(0,0,0,0.4); 
+}
+
+/*===================================================================
+  XX. Footer
+================================================================== */
+
+footer {
+	background: rgb(236, 240, 241);;
+}
+
+footer .glyphicon {
+	display: block;
+	font-size: 2rem;
+}
