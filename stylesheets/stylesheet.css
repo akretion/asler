@@ -81,16 +81,16 @@ li {
 }
 
 .nav.nav-tabs > li > a:hover {
-  background: #FFFFFF;
+  background: #F9F9F9;
   color: inherit;    
 }
 
 .nav.nav-tabs > li.active > a,
 .nav.nav-tabs > li.active > a:hover,
 .nav.nav-tabs > li.active > a:focus {
-  background: #FFFFFF;
-  color: #535353;;
-  padding: 12px 5px 12px 5px;
+  background: #65878F;
+  color: #ffffff;
+  border: none;
 }
 
 /* nav-tabs border color */
@@ -108,20 +108,6 @@ a[aria-controls=""]                                                             
 a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
 a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
 a[aria-controls=""]                                                              { border-bottom: 4px solid #EEF1F2 !important; }
-
-li.active > a[aria-controls="tab_bon-plan-350"]                                  { border: 4px solid #166BA2 !important; }
-li.active > a[aria-controls="tab_chariots-a-livres-275"]                         { border: 4px solid #1691BE !important; }
-li.active > a[aria-controls="tab_consultation-intercalaires-et-serre-livres-28"] { border: 4px solid #e74c3c !important; }
-li.active > a[aria-controls="tab_entretien-des-livres-2"]                        { border: 4px solid #FFBA00 !important; }
-li.active > a[aria-controls="tab_entretien-des-medias-13"]                       { border: 4px solid #25C289 !important; }
-li.active > a[aria-controls="tab_etiquetage-personnalisations-69"]               { border: 4px solid #8e44ad !important; }
-li.active > a[aria-controls="tab_mobilier-85"]                                   { border: 4px solid #166BA2 !important; }
-li.active > a[aria-controls="tab_others-1"]                                      { border: 4px solid #1691BE !important; }
-li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
-li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
-li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
-li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
-li.active > a[aria-controls=""]                                                  { border: 4px solid #EEF1F2 !important; }
 
 /*===================================================================
   XX. Tab-content (2nd category level)
