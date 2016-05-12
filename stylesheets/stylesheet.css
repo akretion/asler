@@ -27,7 +27,7 @@ a {
     color: #535353;
 }
 
-a:hover, //------------------------ mettre avec <a> plus tard
+a:hover, 
 a:focus {
   color: #535353;
   text-decoration: none;
@@ -65,14 +65,14 @@ li {
   XX. Navbar (1st category level)
 ================================================================== */
 
-.nav-tabs {
+.oe_website_sale .nav-tabs {
   height: 56px;
   background: #ecf0f1;
   border-bottom: 4px solid #166BA2 !important;
   margin-bottom: 40px;
 }
 
-.nav.nav-tabs > li > a {
+.oe_website_sale .nav.nav-tabs > li > a {
   height: 56px;
   margin-right: 0px;
   line-height: 1.42857143;
@@ -88,7 +88,7 @@ li {
   transition: all 0.1s ease-in-out;
 }
 
-.nav.nav-tabs > li > a::after {
+.oe_website_sale .nav.nav-tabs > li > a::after {
   content: '';
   width: 1px;
   height: 31px;
@@ -99,7 +99,7 @@ li {
   right: 0px;
 }
 
-.nav.nav-tabs > li > a:hover {
+.oe_website_sale .nav.nav-tabs > li > a:hover {
   background: #9BB4B9;
   color: #ffffff;
   -webkit-transition: all 0.1s ease-in-out;
@@ -107,16 +107,16 @@ li {
   transition: all 0.1s ease-in-out; 
 }
 
-.nav.nav-tabs > li.active > a,
-.nav.nav-tabs > li.active > a:hover,
-.nav.nav-tabs > li.active > a:focus {
+.oe_website_sale .nav.nav-tabs > li.active > a,
+.oe_website_sale .nav.nav-tabs > li.active > a:hover,
+.oe_website_sale .nav.nav-tabs > li.active > a:focus {
   background: #8199A3;
   color: #ffffff;
   border: none;
 }
 
 /* Masquage catégorie "Others" */   
-.nav.nav-tabs > li > a[aria-controls="tab_others-1"] { display: none; }  
+.oe_website_sale .nav.nav-tabs > li > a[aria-controls="tab_others-1"] { display: none; }  
 
 /* nav-tabs border color */
 a[aria-controls="tab_bon-plan-350"]                 { border-bottom: 4px solid #166BA2 !important; padding: 17px 6px 0px 6px !important; }
@@ -149,26 +149,26 @@ div#tab_presentation-exposition-236.tab-pane.active > div > a  { background: #e7
 div#tab_rangement-transport-218.tab-pane.active > div > a      { background: #1691BE; }
 div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #166BA2; }
 
-.tab-pane.active {
+.oe_website_sale .tab-pane.active {
   position: relative;
   top: 0;
   left: 0;
 }
 
-.tab-pane.active > div {
+.oe_website_sale .tab-pane.active > div {
 	width: 33.333%;
   height: 140px;
 	float: left;
   margin: 20px 0px 30px 0px;
 }
 
-.tab-pane.active > div::before {}
+.oe_website_sale .tab-pane.active > div::before {}
 
-.tab-pane.active > div::after {}
+.oe_website_sale .tab-pane.active > div::after {}
 
-.tab-pane.active > div > a,
-.tab-pane.active > div > a:focus,
-.tab-pane.active > div > a:active {
+.oe_website_sale .tab-pane.active > div > a,
+.oe_website_sale .tab-pane.active > div > a:focus,
+.oe_website_sale .tab-pane.active > div > a:active {
   position: relative;
   top: 0;
   left: 0;
@@ -180,7 +180,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
   text-decoration: none;
 }
 
-.tab-pane.active > div > a::before {
+.oe_website_sale .tab-pane.active > div > a::before {
   content: '';
   width: 108px;
   height: 108px;
@@ -193,7 +193,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
   background-size: cover;
 }
 
-.tab-pane.active > div > a::after {
+.oe_website_sale .tab-pane.active > div > a::after {
   position: absolute;
   width: 80%;
   height: 40%;
@@ -210,10 +210,14 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 ================================================================== */
 
 footer {
-	background: rgb(236, 240, 241);;
+	background: rgb(236, 240, 241);
 }
 
-footer .glyphicon {
-	display: block;
-	font-size: 2rem;
+footer .glyphicon.fa {
+  font-size: 4rem;
 }
+
+footer .fa-book:before  { content: "\f02d" !important; color: #166BA2; }
+footer .fa-truck:before { content: "\f0d1" !important; color: #e74c3c; }
+footer .fa-lock:before  { content: "\f023" !important; color: #25C289; }
+footer .fa-user:before  { content: "\f007" !important; color: #FFBA00; }
