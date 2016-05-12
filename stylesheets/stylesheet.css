@@ -218,7 +218,7 @@ footer .glyphicon.fa {
   font-size: 3rem;
 }
 
-footer .fa-book:before  { content: "\f02d" !important; color: #166BA2; }
-footer .fa-truck:before { content: "\f0d1" !important; color: #e74c3c; }
-footer .fa-lock:before  { content: "\f023" !important; color: #25C289; }
-footer .fa-user:before  { content: "\f007" !important; color: #FFBA00; }
+footer .fa-book:before  { content: "\f02d" !important; }
+footer .fa-truck:before { content: "\f0d1" !important; }
+footer .fa-lock:before  { content: "\f023" !important; }
+footer .fa-user:before  { content: "\f007" !important; }
