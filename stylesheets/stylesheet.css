@@ -83,6 +83,9 @@ li {
   max-width: 99px;
   color: #484848;
   font-size: 1.35rem;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .nav.nav-tabs > li > a::after {
@@ -98,7 +101,10 @@ li {
 
 .nav.nav-tabs > li > a:hover {
   background: #9BB4B9;
-  color: #ffffff;    
+  color: #ffffff;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; 
 }
 
 .nav.nav-tabs > li.active > a,
