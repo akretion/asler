@@ -214,7 +214,8 @@ footer {
 }
 
 footer .glyphicon.fa {
-  font-size: 4rem;
+  display: block;
+  font-size: 3rem;
 }
 
 footer .fa-book:before  { content: "\f02d" !important; color: #166BA2; }
