@@ -206,6 +206,92 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
+  XX. Product color choice
+================================================================== */
+
+#product_detail .col-sm-5.col-md-5.col-lg-4.col-lg-offset-1 {
+    background: #ECF0F1; /* Demander Raphaël ajouter class "sidebar" */
+}
+
+
+#product_detail label.css_not_available:hover {
+    cursor: not-allowed;
+}
+
+#product_detail .list-inline > li {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#product_detail label.css_attribute_color {
+    margin-bottom: 0px;
+    border: 4px solid #ECF0F1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#product_detail label.css_attribute_color.active {
+    border: 4px solid #2ecc71;
+}
+
+#product_detail label.css_attribute_color.active::after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #2ecc71;
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: 8px;
+    font-size: 2.3rem;
+}
+
+#product_detail label.css_attribute_color.css_not_available {
+    background-image: none;
+    opacity: 0.3;
+}
+
+#product_detail label.css_attribute_color.active.css_not_available {
+    border: 4px solid #e74c3c;
+}
+
+#product_detail label.css_attribute_color.css_not_available::after {
+    content: "\f05e";
+    font-family: FontAwesome;
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: 9px;
+    font-size: 2.3rem;
+}
+
+#product_detail label.css_attribute_color.active.css_not_available::after {
+    color: #e74c3c;
+}
+
+#product_detail label.css_attribute_color input {
+    margin: 11px;
+    height: 15px;
+    width: 15px;
+}
+
+/* Option Transparent */
+
+#product_detail label.css_attribute_color[style="background-color:Transparent"] {
+    border: 4px dotted #444B54;  
+}
+
+#product_detail label.css_attribute_color.active[style="background-color:Transparent"] {
+    border: 4px dotted #2ecc71;
+    color: #2ecc71;  
+}
+
+#product_detail label.css_attribute_color.active.css_not_available[style="background-color:Transparent"] {
+    border: 4px dotted #e74c3c;
+    color: #e74c3c;  
+}
+
+/*===================================================================
   XX. Footer
 ================================================================== */
 
