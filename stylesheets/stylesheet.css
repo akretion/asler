@@ -206,11 +206,33 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
-  XX. Product color choice
+  XX. Product attribute title style
+================================================================== */
+
+#product_detail p.short_description {
+  font-size: 1.6rem;
+  padding: 13px 0px 0px 0px;
+  color: #999999;
+}
+
+/*===================================================================
+  XX. Product attribute title style
+================================================================== */
+
+#product_detail strong[data-oe-model="product.attribute"] {
+    font-size: 1.7rem;
+    display: block;
+    padding: 15px 0px 12px 0px;
+}
+
+
+/*===================================================================
+  XX. Product color input
 ================================================================== */
 
 #product_detail .col-sm-5.col-md-5.col-lg-4.col-lg-offset-1 {
     background: #ECF0F1; /* Demander Raphaël ajouter class "sidebar" */
+    color: #3E3E3E;
 }
 
 
@@ -292,19 +314,146 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
-  XX. Footer
+  XX. Product width ou material input
 ================================================================== */
 
-footer {
-	background: rgb(236, 240, 241);
+/* Li */
+
+#product_detail li.form-group.js_attribute_value {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 4px !important;
+
 }
 
-footer .glyphicon.fa {
-  display: block;
-  font-size: 3rem;
+/* Label */
+
+#product_detail label.control-label {
+    margin: 0px 0px 0px 0px !important;
 }
 
-footer .fa-book:before  { content: "\f02d" !important; }
-footer .fa-truck:before { content: "\f0d1" !important; }
-footer .fa-lock:before  { content: "\f023" !important; }
-footer .fa-user:before  { content: "\f007" !important; }
+#product_detail label.control-label:hover {
+    margin: 0px 0px 0px 0px !important;
+    cursor: pointer;
+}
+
+/* Label > Input */
+
+#product_detail label.control-label > input {
+    margin: 11px;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#product_detail label.control-label > input::before {
+    content: "\f0c8";
+    font-family: FontAwesome;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    top: -3px;
+    left: -2px;
+    font-size: 2.2rem;
+}
+
+#product_detail label.control-label > input:checked::after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #2ecc71;
+    position: absolute;
+    display: block;
+    top: -4px;
+    left: -1px;
+    font-size: 2.3rem;
+}
+
+/* Label > Span */
+
+#product_detail label.control-label > span {
+    display: inline-block;
+    margin-top: 9px;
+}
+
+#product_detail label.control-label > span.badge {
+    background: #1691BE;
+}
+
+/*===================================================================
+  XX. Product price
+================================================================== */
+
+#product_detail h4.oe_price_h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#product_detail h4.oe_price_h4 > b.oe_price {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+
+/*===================================================================
+  XX. Product quantity
+================================================================== */
+
+#product_detail div.css_quantity.oe_website_spinner a {
+  color: #8199A3;
+}
+
+#product_detail div.css_quantity.oe_website_spinner > span {
+    border: none;
+    background: #F4F6F7;
+    border-bottom: 2px solid #1691BE;
+}
+
+#product_detail div.css_quantity.oe_website_spinner > span:hover {
+    background: #F4F6F7;
+    border-bottom: none;
+    position: relative;
+    top: 2px;
+    left: 0px;
+    margin-bottom: 2px;
+}
+
+#product_detail div.css_quantity.oe_website_spinner > input {
+    border: none;
+    border-top: 1px solid #E2E4E4;
+    border-bottom: 1px solid #E2E4E4;
+    background: #ffffff;
+    color: #7f8c8d;
+}
+
+
+/*===================================================================
+  XX. Add to card button
+================================================================== */
+
+#product_detail a.js_check_product.a-submit {
+    background-image: none;
+    background: #FFFFFF;
+    text-shadow: none;
+    border: none;
+    border-bottom: 3px solid #1691BE;
+    margin-top: 20px !important;
+    color: #1691BE;
+}
+
+#product_detail a.js_check_product.a-submit:hover {
+    background: #F4F6F7;
+    border-bottom: 0px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+    margin-bottom: 3px;
+}
+
+#product_detail a.js_check_product.a-submit::before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  margin-right: 9px;
+}
