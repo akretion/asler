@@ -384,14 +384,14 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     left: 0;
 }
 
-#product_detail label.control-label > input:checked::before {
+#product_detail label.control-label > input:checked + span::before { /* Hack temporaire pour styliser checkbox (signe valider) */
     content: "\f00c";
     font-family: FontAwesome;
     color: #2ecc71;
     position: absolute;
     display: block;
-    top: -4px;
-    left: -2px;
+    top: -6px;
+    left: -31px;
     z-index: 2;
     font-size: 2.3rem;
 }
@@ -401,10 +401,13 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 #product_detail label.control-label > span {
     display: inline-block;
     margin-top: 9px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #product_detail label.control-label > span.badge {
-    background: #1691BE;
+    display: none;
 }
 
 /*===================================================================
