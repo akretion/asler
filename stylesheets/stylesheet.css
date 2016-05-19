@@ -6,7 +6,7 @@ https://localhost:8443/asler/styles.css
 
 [Sommaire]
 
-01. Style général
+01. Styles généraux
 02. 
 03. 
 04. 
@@ -20,7 +20,7 @@ https://localhost:8443/asler/styles.css
 -------------------------------------------------------------------*/
 
 /*===================================================================
-  01. General styles
+  01. Styles généraux
 ================================================================== */
 
 a {
@@ -37,8 +37,12 @@ li {
 	list-style-type: none;
 }
 
+.text-danger {
+  color: #c0392b;
+}
+
 /*===================================================================
-  XX. Branding Header
+  XX. Header
 ================================================================== */
 
 .navbar-default {
@@ -59,10 +63,29 @@ li {
 	.navbar-nav.navbar-right:last-child {
 	  margin-right: 0px;
 	}
-}	
+}
+
 
 /*===================================================================
-  XX. Navbar (1st category level)
+  XX. Footer
+================================================================== */
+
+footer {
+  background: rgb(236, 240, 241);
+}
+
+footer .glyphicon.fa {
+  display: block;
+  font-size: 3rem;
+}
+
+footer .fa-book:before  { content: "\f02d" !important; }
+footer .fa-truck:before { content: "\f0d1" !important; }
+footer .fa-lock:before  { content: "\f023" !important; }
+footer .fa-user:before  { content: "\f007" !important; }
+
+/*===================================================================
+  XX. Tabs - catégories de 1er degré
 ================================================================== */
 
 .oe_website_sale .nav-tabs {
@@ -133,7 +156,7 @@ a[aria-controls="tab_rangement-transport-218"]      { border-bottom: 4px solid #
 a[aria-controls="tab_utilitaires-informatique-304"] { border-bottom: 4px solid #166BA2 !important; }
 
 /*===================================================================
-  XX. Tab-content (2nd category level)
+  XX. Tabs - catégories de 2nd degré
 ================================================================== */
 
 div#tab_bon-plan-350.tab-pane.active > div > a                 { background: #166BA2; }
@@ -206,7 +229,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
-  XX. Product attribute title style
+  XX. Description courte produit
 ================================================================== */
 
 #product_detail p.short_description {
@@ -216,25 +239,23 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
-  XX. Product attribute title style
+  XX. Intitulés produits
 ================================================================== */
 
-#product_detail strong[data-oe-model="product.attribute"] {
+#product_detail .js_product strong {
     font-size: 1.7rem;
     display: block;
     padding: 15px 0px 12px 0px;
 }
 
-
 /*===================================================================
-  XX. Product color input
+  XX. Sélecteurs choix des couleurs
 ================================================================== */
 
 #product_detail .col-sm-5.col-md-5.col-lg-4.col-lg-offset-1 {
     background: #ECF0F1; /* Demander Raphaël ajouter class "sidebar" */
     color: #3E3E3E;
 }
-
 
 #product_detail label.css_not_available:hover {
     cursor: not-allowed;
@@ -314,7 +335,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
-  XX. Product width ou material input
+  XX. Sélecteurs caractéristiques produits
 ================================================================== */
 
 /* Li */
@@ -330,11 +351,26 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 
 #product_detail label.control-label {
     margin: 0px 0px 0px 0px !important;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #product_detail label.control-label:hover {
     margin: 0px 0px 0px 0px !important;
     cursor: pointer;
+}
+
+#product_detail label.control-label::before {
+    content: "\f0c8";
+    font-family: FontAwesome;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    top: 4px;
+    left: 9px;
+    z-index: 1;
+    font-size: 2.2rem;
 }
 
 /* Label > Input */
@@ -348,25 +384,15 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     left: 0;
 }
 
-#product_detail label.control-label > input::before {
-    content: "\f0c8";
-    font-family: FontAwesome;
-    color: #ffffff;
-    position: absolute;
-    display: block;
-    top: -3px;
-    left: -2px;
-    font-size: 2.2rem;
-}
-
-#product_detail label.control-label > input:checked::after {
+#product_detail label.control-label > input:checked::before {
     content: "\f00c";
     font-family: FontAwesome;
     color: #2ecc71;
     position: absolute;
     display: block;
     top: -4px;
-    left: -1px;
+    left: -2px;
+    z-index: 2;
     font-size: 2.3rem;
 }
 
@@ -382,7 +408,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /*===================================================================
-  XX. Product price
+  XX. Affichage du prix
 ================================================================== */
 
 #product_detail h4.oe_price_h4 {
@@ -398,7 +424,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 
 
 /*===================================================================
-  XX. Product quantity
+  XX. Boutons choix de quantité
 ================================================================== */
 
 #product_detail div.css_quantity.oe_website_spinner a {
@@ -428,9 +454,8 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     color: #7f8c8d;
 }
 
-
 /*===================================================================
-  XX. Add to card button
+  XX. Bouton ajouter au panier
 ================================================================== */
 
 #product_detail a.js_check_product.a-submit {
