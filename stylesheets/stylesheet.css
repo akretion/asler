@@ -234,8 +234,8 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 #products_grid .oe_product {
-    border: 1px solid #dddddd;
-    background: #ffffff;
+    border: none;
+    background: #ECF0F1;
     -webkit-transition: background 0.2s ease-in-out;
     -moz-transition: background 0.2s ease-in-out;
     transition: background 0.2s ease-in-out;
