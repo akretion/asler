@@ -686,15 +686,19 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 
 /* Tableau récapitulatif */
 
-.oe_cart .table-condensed>tbody>tr>td {
+.oe_cart .table-striped > tbody > tr:nth-child(odd)>td {
+    background-color: #FFFFFF;
+}
+
+.oe_cart .table-condensed > tbody > tr > td {
       padding: 8px 5px 10px 5px;
 }
 
-.oe_cart .table>thead>tr>th {
+.oe_cart .table > thead > tr > th {
     border-bottom: none;
 }
 
-.oe_cart .table>tbody>tr>td {
+.oe_cart .table > tbody > tr > td {
     border-top: 2px dashed #7f8c8d;
 }
 
