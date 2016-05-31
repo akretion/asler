@@ -584,12 +584,13 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
   XX. Boutons choix de quantité
 ================================================================== */
 
+.oe_cart span.input-group-addon, /* Panier */
 #product_detail div.css_quantity.oe_website_spinner > span {
     border: none;
     border-bottom: 2px solid #1691BE;
     padding: 0px;
 }
-
+.oe_cart span.input-group-addon:hover, /* Panier */
 #product_detail div.css_quantity.oe_website_spinner > span:hover {
     background: #F4F6F7;
     border-color: #F4F6F7;
@@ -597,13 +598,13 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     top: 2px;
     left: 0px;
 }
-
+.oe_cart a.js_add_cart_json, /* Panier */
 #product_detail div.css_quantity.oe_website_spinner a {
     color: #8199A3;
     background: #F4F6F7;
     padding: 8px 12px;
 }
-
+.oe_cart input.js_quantity, /* Panier */
 #product_detail div.css_quantity.oe_website_spinner > input {
     border: none;
     border-top: 1px solid #E2E4E4;
@@ -616,6 +617,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
   XX. Bouton ajouter au panier
 ================================================================== */
 
+.oe_cart a.btn-primary.pull-right,
 #product_detail a.js_check_product.a-submit {
     background-image: none;
     background: #FFFFFF;
@@ -625,7 +627,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     margin-top: 20px !important;
     color: #1691BE;
 }
-
+.oe_cart a.btn-primary.pull-right:hover,
 #product_detail a.js_check_product.a-submit:hover {
     background: #F4F6F7;
     border-bottom: 0px;
@@ -677,3 +679,87 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     padding: 12px 0px 12px 0px;
     font-weight: bold;
 }
+
+/*===================================================================
+  XX. Panier - Règlement
+================================================================== */
+
+/* Tableau récapitulatif */
+
+
+/* Bouton quantité */
+.oe_cart span.input-group-addon {
+    border: none;
+    border-bottom: 2px solid #1691BE;
+    padding: 0px;
+}
+.oe_cart span.input-group-addon:hover {
+    background: #F4F6F7;
+    border-color: #F4F6F7;
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
+.oe_cart a.js_add_cart_json {
+    color: #8199A3;
+    background: #F4F6F7;
+    padding: 8px 12px;
+}
+.oe_cart input.js_quantity {
+    border: none;
+    border-top: 1px solid #E2E4E4;
+    border-bottom: 1px solid #E2E4E4;
+    background: #ffffff;
+    color: #7f8c8d;
+}
+
+/* Bouton PRÉCÉDENT (< GAUCHE) */
+.oe_cart a.btn-default {
+    background-image: none;
+    background: #F4F6F7;
+    text-shadow: none;
+    border: none;
+    border-bottom: 3px solid #FFBA00;
+    margin-top: 20px !important;
+    color: #FFBA00;
+    padding: 14px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.oe_cart a.btn-default:hover {
+    background: #F4F6F7;
+    border-bottom: 0px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+    margin-bottom: 35px !important;
+}
+
+/* Bouton suivant (> DROITE) */
+.oe_cart a.btn-primary.pull-right {
+    background-image: none;
+    background: #F4F6F7;
+    text-shadow: none;
+    border: none;
+    border-bottom: 3px solid #1691BE;
+    margin-top: 20px !important;
+    color: #1691BE;
+    padding: 14px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.oe_cart a.btn-primary.pull-right:hover {
+    background: #F4F6F7;
+    border-bottom: 0px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+    margin-bottom: 35px !important;
+}
+
+
+
+
+
