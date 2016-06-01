@@ -702,6 +702,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 /* Bouton quantité */
+
 .oe_cart span.input-group-addon {
     border: none;
     border-bottom: 2px solid #1691BE;
@@ -727,30 +728,9 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     color: #7f8c8d;
 }
 
-/* Bouton PRÉCÉDENT (< GAUCHE) */
-.oe_cart a.btn-default {
-    background-image: none;
-    background: #F4F6F7;
-    text-shadow: none;
-    border: none;
-    border-bottom: 3px solid #FFBA00;
-    margin-top: 20px !important;
-    color: #FFBA00;
-    padding: 14px 16px;
-    font-size: 18px;
-    line-height: 1.33;
-    border-radius: 6px;
-}
-.oe_cart a.btn-default:hover {
-    background: #F4F6F7;
-    border-bottom: 0px;
-    position: relative;
-    top: 3px;
-    left: 0px;
-    margin-bottom: 35px !important;
-}
+/* Bouton PRÉCÉDENT et SUIVANT */
 
-/* Bouton suivant (> DROITE) */
+.oe_cart a.btn-default,
 .oe_cart a.btn-primary.pull-right {
     background-image: none;
     background: #F4F6F7;
@@ -764,6 +744,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     line-height: 1.33;
     border-radius: 6px;
 }
+.oe_cart a.btn-default:hover,
 .oe_cart a.btn-primary.pull-right:hover {
     background: #F4F6F7;
     border-bottom: 0px;
