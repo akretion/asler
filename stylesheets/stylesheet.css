@@ -504,7 +504,6 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 #product_detail label.control-label::before {
-    max-width: 132px;
     content: "\f0c8";
     font-family: FontAwesome;
     color: #ffffff;
@@ -542,6 +541,7 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 /* Label > Span */
 
 #product_detail label.control-label > span {
+    max-width: 132px;
     display: inline-block;
     margin-top: 9px;
     position: relative;
