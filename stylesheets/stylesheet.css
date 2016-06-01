@@ -92,6 +92,9 @@ footer .footer-title {
   background: #ffffff;
   text-align: center; 
   padding: 30px 0px 15px 0px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 footer .footer-title > .fa {
@@ -111,6 +114,17 @@ footer ul, footer address, footer p  {
 footer .horaires {
   color: #7f8c8d;
 }
+
+/* Bordure colorée */
+
+footer div.title1 { border-bottom: 1px solid #1691BE; }
+footer div.title2 { border-bottom: 1px solid #e74c3c; }
+footer div.title3 { border-bottom: 1px solid #FFBA00; }
+footer div.title4 { border-bottom: 1px solid #25C289; }
+
+footer ul.title1 a:hover { color:  #1691BE; }
+footer ul.title2 a:hover { color:  #e74c3c; }
+footer ul.title3 a:hover { color:  #FFBA00; }
 
 /*===================================================================
   XX. Tabs - catégories de 1er degré
@@ -758,8 +772,3 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
     left: 0px;
     margin-bottom: 35px !important;
 }
-
-
-
-
-
