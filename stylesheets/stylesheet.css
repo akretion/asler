@@ -648,19 +648,22 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 
 /* <hr> style "pointillés à découper" */
 
-#product_detail hr {
-    border-top: 0px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+#product_detail .col-sm-5.col-md-5.col-lg-4.col-lg-offset-1 hr { /* CHANGER NOM CLASS DEMANDER RAPHAËL */
+    display: none; 
 }
 
-/* Intitulés descriptions et caractéristiques >> !!! DEMANDER A RAPHAËL DE METTRE DES TITRES À LA PLACE !!! */
+/* Intitulés descriptions et caractéristiques */
 
 #product_detail p.text-muted {
     border: 2px dashed #FFFFFF;
-    padding: 0px 12px 12px 12px;
     border-radius: 6px;
     color: #7D7D7D;
+    padding: 0px 12px 12px 12px;
+    margin-top: 20px;
+}
+
+#product_detail p.text-muted:first-of-type {
+    margin-top: 23px;
 }
 
 #product_detail p.text-muted:first-of-type::before {
