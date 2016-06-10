@@ -215,10 +215,10 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 }
 
 .oe_website_sale .tab-pane.active > div {
+	display: inline-block;
+	vertical-align: top;
 	width: 33.333%;
-  height: 140px;
-	float: left;
-  margin: 20px 0px 30px 0px;
+  	margin: 20px 0px 30px 0px;
 }
 
 .oe_website_sale .tab-pane.active > div::before {}
