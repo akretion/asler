@@ -291,18 +291,20 @@ a[aria-controls="tab_1"], a[aria-controls="tab_7"], a[aria-controls="tab_8"] { d
 }
 
 /* Couleurs hover */
-.oe_website_sale #tab_0  > div > ul a:hover { color: #166BA2; }
-.oe_website_sale #tab_1  > div > ul a:hover { color: #1691BE; }
+.oe_website_sale #tab_0  > div > ul a:hover { color: #1691BE; }
+.oe_website_sale #tab_1  > div > ul a:hover { color: #444B54; }
 .oe_website_sale #tab_2  > div > ul a:hover { color: #e74c3c; }
 .oe_website_sale #tab_3  > div > ul a:hover { color: #FFBA00; }
 .oe_website_sale #tab_4  > div > ul a:hover { color: #25C289; }
 .oe_website_sale #tab_5  > div > ul a:hover { color: #8e44ad; }
 .oe_website_sale #tab_6  > div > ul a:hover { color: #166BA2; }
-.oe_website_sale #tab_7  > div > ul a:hover { color: #1691BE; }
-.oe_website_sale #tab_8  > div > ul a:hover { color: #FFBA00; }
+.oe_website_sale #tab_7  > div > ul a:hover { color: #444B54; }
+.oe_website_sale #tab_8  > div > ul a:hover { color: #444B54; }
 .oe_website_sale #tab_9  > div > ul a:hover { color: #e74c3c; }
-.oe_website_sale #tab_10 > div > ul a:hover { color: #1691BE; }
-.oe_website_sale #tab_11 > div > ul a:hover { color: #166BA2; }
+.oe_website_sale #tab_10 > div > ul a:hover { color: #FFBA00; }
+.oe_website_sale #tab_11 > div > ul a:hover { color: #25C289; }
+.oe_website_sale #tab_12 > div > ul a:hover { color: #8e44ad; }
+.oe_website_sale #tab_13 > div > ul a:hover { color: #1691BE; }
 
 /* Liste de 3ème catégorie sidebar de gauche  */
 #products_grid_before {
