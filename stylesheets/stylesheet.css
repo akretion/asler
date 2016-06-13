@@ -23,6 +23,10 @@ https://localhost:8443/asler/styles.css
   01. Styles généraux
 ================================================================== */
 
+html {
+  font-size: 62.5%;
+}
+
 a {
     color: #535353;
 }
@@ -132,8 +136,8 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 
 .oe_website_sale .nav-tabs {
   height: 56px;
-  background: #ecf0f1;
-  border-bottom: 4px solid #166BA2 !important;
+  background: #f8f9f9;
+  border-bottom: 4px solid #1691BE !important; /* Couleur de base en cas d'erreur + extremité droite */
   margin-bottom: 40px;
 }
 
@@ -145,7 +149,7 @@ footer ul.title3 a:hover { color:  #FFBA00; }
   text-align: center;
   padding: 8px 6px 6px 6px;
   border: none;
-  max-width: 100px;
+  max-width: 114px;
   color: #484848;
   font-size: 1.34rem;
 }
@@ -162,14 +166,13 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 }
 
 .oe_website_sale .nav.nav-tabs > li > a:hover {
-  background: #65878F;
-  color: #ffffff;
+  background: #ecf0f1;
 }
 
 .oe_website_sale .nav.nav-tabs > li.active > a,
 .oe_website_sale .nav.nav-tabs > li.active > a:hover,
 .oe_website_sale .nav.nav-tabs > li.active > a:focus {
-  background: #8199A3;
+  background: #9BB4B9;
   color: #ffffff;
   border: none;
 }
@@ -178,98 +181,232 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 .oe_website_sale .nav.nav-tabs > li > a[aria-controls="tab_others-1"] { display: none; }  
 
 /* nav-tabs border color */
-a[aria-controls="tab_bon-plan-350"]                 { border-bottom: 4px solid #166BA2 !important; padding: 17px 6px 0px 6px !important; }
-a[aria-controls="tab_chariots-a-livres-275"]        { border-bottom: 4px solid #1691BE !important; }
-a[aria-controls="tab_coin-enfants-283"]             { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
-a[aria-controls="tab_consultation-public-28"]       { border-bottom: 4px solid #FFBA00 !important; }
-a[aria-controls="tab_entretien-des-livres-2"]       { border-bottom: 4px solid #25C289 !important; }
-a[aria-controls="tab_entretien-des-medias-13"]      { border-bottom: 4px solid #8e44ad !important; }
-a[aria-controls="tab_etiquetage-identification-69"] { border-bottom: 4px solid #166BA2 !important; }
-a[aria-controls="tab_mobilier-85"]                  { border-bottom: 4px solid #1691BE !important; padding: 17px 6px 0px 6px !important; }
-a[aria-controls="tab_personnalisation-323"]         { border-bottom: 4px solid #FFBA00 !important; max-width: 120px !important; padding: 17px 6px 0px 6px !important; }
-a[aria-controls="tab_presentation-exposition-236"]  { border-bottom: 4px solid #e74c3c !important; }
-a[aria-controls="tab_rangement-transport-218"]      { border-bottom: 4px solid #1691BE !important; }
-a[aria-controls="tab_utilitaires-informatique-304"] { border-bottom: 4px solid #166BA2 !important; }
+.oe_website_sale a[aria-controls="tab_0"]  { border-bottom: 4px solid #1691BE !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_1"]  { border-bottom: 4px solid #444B54 !important; }
+.oe_website_sale a[aria-controls="tab_2"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_3"]  { border-bottom: 4px solid #FFBA00 !important; }
+.oe_website_sale a[aria-controls="tab_4"]  { border-bottom: 4px solid #25C289 !important; }
+.oe_website_sale a[aria-controls="tab_5"]  { border-bottom: 4px solid #8e44ad !important; }
+.oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #166BA2 !important; }
+.oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #444B54 !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #444B54 !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #e74c3c !important; }
+.oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #FFBA00 !important; }
+.oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #25C289 !important; }
+.oe_website_sale a[aria-controls="tab_12"] { border-bottom: 4px solid #8e44ad !important; }
+.oe_website_sale a[aria-controls="tab_13"] { border-bottom: 4px solid #1691BE !important; }
 
 /*===================================================================
-  XX. Tabs - catégories de 2nd degré
+  XX. Tabs - catégories de 2ème degré
 ================================================================== */
 
-div#tab_bon-plan-350.tab-pane.active > div > a                 { background: #166BA2; }
-div#tab_chariots-a-livres-275.tab-pane.active > div > a        { background: #1691BE; }
-div#tab_coin-enfants-283.tab-pane.active > div > a             { background: #e74c3c; }
-div#tab_consultation-public-28.tab-pane.active > div > a       { background: #FFBA00; }
-div#tab_entretien-des-livres-2.tab-pane.active > div > a       { background: #25C289; }
-div#tab_entretien-des-medias-13.tab-pane.active > div > a      { background: #8e44ad; }
-div#tab_etiquetage-identification-69.tab-pane.active > div > a { background: #166BA2; }
-div#tab_mobilier-85.tab-pane.active > div > a                  { background: #1691BE; }
-div#tab_personnalisation-323.tab-pane.active > div > a         { background: #FFBA00; }
-div#tab_presentation-exposition-236.tab-pane.active > div > a  { background: #e74c3c; }
-div#tab_rangement-transport-218.tab-pane.active > div > a      { background: #1691BE; }
-div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #166BA2; }
+/* •••••••••••TEMPORAIRE••••••••••• */
+a[aria-controls="tab_1"], a[aria-controls="tab_7"], a[aria-controls="tab_8"] { display: none !important; }
+/* •••••••••••••••••••••••••••••••• */
 
-.oe_website_sale .tab-pane.active {
-  position: relative;
-  top: 0;
-  left: 0;
+/* Conteneur */
+.oe_website_sale .tab-pane > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.333%;
+    margin: 20px 0px 5px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.oe_website_sale .tab-pane.active > div {
-	display: inline-block;
-	vertical-align: top;
-	width: 33.333%;
-  	margin: 20px 0px 30px 0px;
+/* Bandeau coloré */
+.oe_website_sale .tab-pane > div > h4 > a,
+.oe_website_sale .tab-pane > div > h4 > a:focus,
+.oe_website_sale .tab-pane > div > h4 > a:active {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 80%;
+    color: #ffffff;
+    font-size: 1.55rem;
+    padding: 11px 0px 11px 126px;
+    text-decoration: none;
+    background: #444B54; /* Couleur de base en cas d'erreur */
 }
 
-.oe_website_sale .tab-pane.active > div::before {}
+.oe_website_sale #tab_0  > div > h4 > a { background: #1691BE; }
+.oe_website_sale #tab_1  > div > h4 > a { background: #444B54; }
+.oe_website_sale #tab_2  > div > h4 > a { background: #e74c3c; }
+.oe_website_sale #tab_3  > div > h4 > a { background: #FFBA00; }
+.oe_website_sale #tab_4  > div > h4 > a { background: #25C289; }
+.oe_website_sale #tab_5  > div > h4 > a { background: #8e44ad; }
+.oe_website_sale #tab_6  > div > h4 > a { background: #166BA2; }
+.oe_website_sale #tab_7  > div > h4 > a { background: #444B54; }
+.oe_website_sale #tab_8  > div > h4 > a { background: #444B54; }
+.oe_website_sale #tab_9  > div > h4 > a { background: #e74c3c; }
+.oe_website_sale #tab_10 > div > h4 > a { background: #FFBA00; }
+.oe_website_sale #tab_11 > div > h4 > a { background: #25C289; }
+.oe_website_sale #tab_12 > div > h4 > a { background: #8e44ad; }
+.oe_website_sale #tab_13 > div > h4 > a { background: #1691BE; }
 
-.oe_website_sale .tab-pane.active > div::after {}
-
-.oe_website_sale .tab-pane.active > div > a,
-.oe_website_sale .tab-pane.active > div > a:focus,
-.oe_website_sale .tab-pane.active > div > a:active {
-  position: relative;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 80%;
-  color: #ffffff;
-  font-size: 1.5rem;
-  padding: 11px 0px 11px 134px;
-  text-decoration: none;
+.oe_website_sale .tab-pane > div > h4 > a::after {
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    border-radius: 50%;
+    z-index: -1;
+    bottom: 5px;
+    content: "";
+    box-shadow: 0 7px 16px rgba(0,0,0,0.4); 
 }
 
-.oe_website_sale .tab-pane.active > div > a::before {
-  content: '';
-  width: 108px;
-  height: 108px;
-  position: absolute;
-  z-index: 1;
-  top: 12px;
-  left: 14px;
-  background: linear-gradient(to bottom right, #C3C3C5, white);
-  /*background-image: url('https://localhost:8443/test/image-test.jpg');*/
-  background-size: cover;
+/* Image de la catégorie */
+.oe_website_sale .tab-pane > div > img {
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    top: 22px;
+    left: 13px;
 }
 
-.oe_website_sale .tab-pane.active > div > a::after {
-  position: absolute;
-  width: 80%;
-  height: 40%;
-  left: 10%;
-  border-radius: 50%;
-  z-index: -1;
-  bottom: 5px;
-  content: "";
-  box-shadow: 0 7px 16px rgba(0,0,0,0.4); 
+/*===================================================================
+  XX. Tabs - catégories de 3ème degré
+================================================================== */
+
+.oe_website_sale .tab-pane > div > ul {
+    width: 80%;
+    padding-left: 126px;
 }
+
+.oe_website_sale .tab-pane > div > ul > li > a {
+    display: block;        /* DEFAULT: présentation pas optimisée */
+    display: -ms-flexbox;  /* OLD - IE 10 */
+    display: -webkit-flex; /* OLD - Chrome */
+    display: flex;         /* NORMAL */
+}
+
+.oe_website_sale .tab-pane > div > ul > li > a::before {
+    content: '\f105';
+    font-family: FontAwesome;
+    color: #cccccc;
+    padding-right: 6px;
+}
+
+/* Couleurs hover */
+.oe_website_sale #tab_0  > div > ul a:hover { color: #166BA2; }
+.oe_website_sale #tab_1  > div > ul a:hover { color: #1691BE; }
+.oe_website_sale #tab_2  > div > ul a:hover { color: #e74c3c; }
+.oe_website_sale #tab_3  > div > ul a:hover { color: #FFBA00; }
+.oe_website_sale #tab_4  > div > ul a:hover { color: #25C289; }
+.oe_website_sale #tab_5  > div > ul a:hover { color: #8e44ad; }
+.oe_website_sale #tab_6  > div > ul a:hover { color: #166BA2; }
+.oe_website_sale #tab_7  > div > ul a:hover { color: #1691BE; }
+.oe_website_sale #tab_8  > div > ul a:hover { color: #FFBA00; }
+.oe_website_sale #tab_9  > div > ul a:hover { color: #e74c3c; }
+.oe_website_sale #tab_10 > div > ul a:hover { color: #1691BE; }
+.oe_website_sale #tab_11 > div > ul a:hover { color: #166BA2; }
+
+/* Liste de 3ème catégorie sidebar de gauche  */
+#products_grid_before {
+    margin-top: 30px;
+}
+
+
+#products_grid_before a {
+    background: none;
+}
+
+#products_grid_before a:hover {
+    background: none;
+    color: #a0a0a0;
+}
+
+/* <ul> nav-pills */
+#products_grid_before > ul.nav-pills > li > a.active {
+    color: #535353;
+    font-size: 1.55rem;
+    padding: 8px 0px 8px 0px;
+}
+
+
+#products_grid_before > ul.nav-pills > li > a.active::before {
+    content: '\f146';
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #a0a0a0;
+}
+
+#products_grid_before > ul.nav-pills > li > a.active.collapsed::before {
+    content: '\f0fe';
+}
+
+/* <ul> collapse */
+#products_grid_before ul.collapse,
+#products_grid_before ul.collapsing {
+    padding: 0px;
+}
+
+#products_grid_before ul.collapse > li > a,
+#products_grid_before ul.collapsing > li > a {
+    display: block;        /* DEFAULT: présentation pas optimisée */
+    display: -ms-flexbox;  /* OLD - IE 10 */
+    display: -webkit-flex; /* OLD - Chrome */
+    display: flex;         /* NORMAL */
+    border-top: 1px solid #ecf0f1;
+    padding: 4px 0px 4px 0px;
+}
+
+#products_grid_before ul.collapse > li > a.active,
+#products_grid_before ul.collapsing > li > a.active {
+    color: #1691BE;
+}
+
+/*===================================================================
+  XX. Products pager + Champs rechercher
+================================================================== */
+
+.tab-content + .products_pager {
+    background: #ecf0f1;
+    border-bottom: 2px solid #a0a0a0;
+    margin-top: 15px;
+}
+
+
+/* Formulaire de recherche */
+input.search-query.form-control {
+    border-radius: 0;
+
+}
+
+span.input-group-btn > a.a-submit {
+    border-radius: 0;
+    background-image: none;
+    background: #a0a0a0;
+    border-color: #a0a0a0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+/*  à compléter ... */
+
+
+
+
 
 /*===================================================================
   XX. Grille produit
 ================================================================== */
 
-/* test */
+/*
+.oe_website_sale .tab-content {
+  background-image: url('https://localhost:8443/asler/test.jpg'); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 280px;
+}
+*/
 
+/* grille */
 #products_grid table {
     border-collapse: separate;
     border-spacing: 15px;
@@ -368,9 +505,9 @@ div#tab_utilitaires-informatique-304.tab-pane.active > div > a { background: #16
 ================================================================== */
 
 #product_detail p.short_description {
-  font-size: 1.6rem;
-  padding: 13px 0px 0px 0px;
-  color: #7D7D7D;
+    font-size: 1.6rem;
+    padding: 13px 0px 0px 0px;
+    color: #7D7D7D;
 }
 
 /*===================================================================
