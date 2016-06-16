@@ -206,8 +206,12 @@ a[aria-controls="tab_1"], a[aria-controls="tab_7"], a[aria-controls="tab_8"] { d
 
 /* Conteneur */
 .oe_website_sale .tab-pane {
-  background: #ffffff;
-  min-height: 306px;
+    background: #ffffff;
+    min-height: 306px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 .oe_website_sale .tab-pane > div {
