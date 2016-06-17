@@ -789,11 +789,20 @@ span.input-group-btn > a.a-submit {
 /* Nuanciers et fiches techniques */
 #product_detail .feature a {
     display: block;
+    width: 200px;
+    margin: 2px 0px;
+    padding: 8px;
+    text-align: center;
+    background: #f4f6f7;
+    color: #1691be;
 }
 
 
 
+
+
 /* à compléter... */
+
 
 
 
