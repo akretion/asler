@@ -792,13 +792,13 @@ span.input-group-btn > a.a-submit {
 
 /* <hr> style "pointillés à découper" */
 
-#product_detail .col-sm-5.col-md-5.col-lg-4.col-lg-offset-1 hr { /* CHANGER NOM CLASS DEMANDER RAPHAËL */
+/*#product_detail .col-sm-5.col-md-5.col-lg-4.col-lg-offset-1 hr { 
     display: none; 
-}
+}*/
 
 /* Intitulés descriptions et caractéristiques */
 
-#product_detail p.text-muted {
+/*#product_detail p.text-muted {
     border: 2px dashed #FFFFFF;
     border-radius: 6px;
     color: #7D7D7D;
@@ -824,7 +824,7 @@ span.input-group-btn > a.a-submit {
     font-size: 1.7rem;
     padding: 12px 0px 12px 0px;
     font-weight: bold;
-}
+}*/
 
 /*===================================================================
   XX. Panier - Règlement
