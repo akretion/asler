@@ -188,20 +188,19 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 .oe_website_sale a[aria-controls="tab_4"]  { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_5"]  { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #166BA2 !important; }
-.oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #444B54 !important; }
+.oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
 .oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #444B54 !important; }
-.oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #25C289 !important; }
-.oe_website_sale a[aria-controls="tab_12"] { border-bottom: 4px solid #8e44ad !important; }
-.oe_website_sale a[aria-controls="tab_13"] { border-bottom: 4px solid #1691BE !important; }
+.oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #25C289 !important; }
+.oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #8e44ad !important; }
+.oe_website_sale a[aria-controls="tab_12"] { border-bottom: 4px solid #1691BE !important; }
 
 /*===================================================================
   XX. Tabs - catégories de 2ème degré
 ================================================================== */
 
 /* •••••••••••TEMPORAIRE••••••••••• */
-a[aria-controls="tab_1"], a[aria-controls="tab_7"], a[aria-controls="tab_8"] { display: none !important; }
+a[aria-controls="tab_1"], a[aria-controls="tab_8"] { display: none !important; }
 /* •••••••••••••••••••••••••••••••• */
 
 /* Conteneur */
@@ -247,13 +246,12 @@ a[aria-controls="tab_1"], a[aria-controls="tab_7"], a[aria-controls="tab_8"] { d
 .oe_website_sale #tab_4  > div > h4 > a { background: #25C289; }
 .oe_website_sale #tab_5  > div > h4 > a { background: #8e44ad; }
 .oe_website_sale #tab_6  > div > h4 > a { background: #166BA2; }
-.oe_website_sale #tab_7  > div > h4 > a { background: #444B54; }
+.oe_website_sale #tab_7  > div > h4 > a { background: #e74c3c; }
 .oe_website_sale #tab_8  > div > h4 > a { background: #444B54; }
-.oe_website_sale #tab_9  > div > h4 > a { background: #e74c3c; }
-.oe_website_sale #tab_10 > div > h4 > a { background: #FFBA00; }
-.oe_website_sale #tab_11 > div > h4 > a { background: #25C289; }
-.oe_website_sale #tab_12 > div > h4 > a { background: #8e44ad; }
-.oe_website_sale #tab_13 > div > h4 > a { background: #1691BE; }
+.oe_website_sale #tab_9  > div > h4 > a { background: #FFBA00; }
+.oe_website_sale #tab_10 > div > h4 > a { background: #25C289; }
+.oe_website_sale #tab_11 > div > h4 > a { background: #8e44ad; }
+.oe_website_sale #tab_12 > div > h4 > a { background: #1691BE; }
 
 .oe_website_sale .tab-pane > div > h4 > a::after {
     position: absolute;
@@ -307,13 +305,12 @@ a[aria-controls="tab_1"], a[aria-controls="tab_7"], a[aria-controls="tab_8"] { d
 .oe_website_sale #tab_4  > div > ul a:hover { color: #25C289; }
 .oe_website_sale #tab_5  > div > ul a:hover { color: #8e44ad; }
 .oe_website_sale #tab_6  > div > ul a:hover { color: #166BA2; }
-.oe_website_sale #tab_7  > div > ul a:hover { color: #444B54; }
+.oe_website_sale #tab_7  > div > ul a:hover { color: #e74c3c; }
 .oe_website_sale #tab_8  > div > ul a:hover { color: #444B54; }
-.oe_website_sale #tab_9  > div > ul a:hover { color: #e74c3c; }
-.oe_website_sale #tab_10 > div > ul a:hover { color: #FFBA00; }
-.oe_website_sale #tab_11 > div > ul a:hover { color: #25C289; }
-.oe_website_sale #tab_12 > div > ul a:hover { color: #8e44ad; }
-.oe_website_sale #tab_13 > div > ul a:hover { color: #1691BE; }
+.oe_website_sale #tab_9  > div > ul a:hover { color: #FFBA00; }
+.oe_website_sale #tab_10 > div > ul a:hover { color: #25C289; }
+.oe_website_sale #tab_11 > div > ul a:hover { color: #8e44ad; }
+.oe_website_sale #tab_12 > div > ul a:hover { color: #1691BE; }
 
 /* Liste de 3ème catégorie sidebar de gauche  */
 #products_grid_before {
