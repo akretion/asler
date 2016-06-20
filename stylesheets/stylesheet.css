@@ -511,7 +511,7 @@ span.input-group-btn > a.a-submit {
   XX. Description courte produit
 ================================================================== */
 
-#sidebar p.short_description {
+.sidebar p.short_description {
     font-size: 1.6rem;
     padding: 13px 0px 0px 0px;
     color: #7D7D7D;
@@ -521,7 +521,7 @@ span.input-group-btn > a.a-submit {
   XX. Intitulés produits
 ================================================================== */
 
-#sidebar .js_product strong {
+.sidebar .js_product strong {
     font-size: 1.7rem;
     display: block;
     padding: 15px 0px 12px 0px;
@@ -531,21 +531,21 @@ span.input-group-btn > a.a-submit {
   XX. Sélecteurs choix des couleurs
 ================================================================== */
 
-#sidebar {
+.sidebar {
     background: #ECF0F1;
     color: #3E3E3E;
 }
 
-#sidebar label.css_not_available:hover {
+.sidebar label.css_not_available:hover {
     cursor: not-allowed;
 }
 
-#sidebar .list-inline > li {
+.sidebar .list-inline > li {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-#sidebar label.css_attribute_color {
+.sidebar label.css_attribute_color {
     margin-bottom: 0px;
     border: 4px solid #ECF0F1;
     position: relative;
@@ -553,11 +553,11 @@ span.input-group-btn > a.a-submit {
     left: 0;
 }
 
-#sidebar label.css_attribute_color.active {
+.sidebar label.css_attribute_color.active {
     border: 4px solid #2ecc71;
 }
 
-#sidebar label.css_attribute_color.active::after {
+.sidebar label.css_attribute_color.active::after {
     content: "\f00c";
     font-family: FontAwesome;
     color: #2ecc71;
@@ -568,16 +568,16 @@ span.input-group-btn > a.a-submit {
     font-size: 2.3rem;
 }
 
-#sidebar label.css_attribute_color.css_not_available {
+.sidebar label.css_attribute_color.css_not_available {
     background-image: none;
     opacity: 0.3;
 }
 
-#sidebar label.css_attribute_color.active.css_not_available {
+.sidebar label.css_attribute_color.active.css_not_available {
     border: 4px solid #e74c3c;
 }
 
-#sidebar label.css_attribute_color.css_not_available::after {
+.sidebar label.css_attribute_color.css_not_available::after {
     content: "\f05e";
     font-family: FontAwesome;
     position: absolute;
@@ -587,11 +587,11 @@ span.input-group-btn > a.a-submit {
     font-size: 2.3rem;
 }
 
-#sidebar label.css_attribute_color.active.css_not_available::after {
+.sidebar label.css_attribute_color.active.css_not_available::after {
     color: #e74c3c;
 }
 
-#sidebar label.css_attribute_color input {
+.sidebar label.css_attribute_color input {
     margin: 11px;
     height: 15px;
     width: 15px;
@@ -599,23 +599,23 @@ span.input-group-btn > a.a-submit {
 
 /* Option Transparent */ 
 /* ENLEVER DÉSIGNATIONS INUTILES À LA FIN !!! Attention #Transparent --> erreur, enlever # */
-#sidebar label.css_attribute_color[style="background-color: transparent;"], /* Internet Explorer */
-#sidebar label.css_attribute_color[style=""], /* Internet Explorer */
-#sidebar label.css_attribute_color[style="background-color:Transparent"],
-#sidebar label.css_attribute_color[style="background-color:#Transparent"] {
+.sidebar label.css_attribute_color[style="background-color: transparent;"], /* Internet Explorer */
+.sidebar label.css_attribute_color[style=""], /* Internet Explorer */
+.sidebar label.css_attribute_color[style="background-color:Transparent"],
+.sidebar label.css_attribute_color[style="background-color:#Transparent"] {
     border: 4px dotted #444B54 !important;  
 }
-#sidebar label.css_attribute_color.active[style="background-color: transparent;"], /* Internet Explorer */
-#sidebar label.css_attribute_color.active[style=""], /* Internet Explorer */
-#sidebar label.css_attribute_color.active[style="background-color:Transparent"],
-#sidebar label.css_attribute_color.active[style="background-color:#Transparent"] {
+.sidebar label.css_attribute_color.active[style="background-color: transparent;"], /* Internet Explorer */
+.sidebar label.css_attribute_color.active[style=""], /* Internet Explorer */
+.sidebar label.css_attribute_color.active[style="background-color:Transparent"],
+.sidebar label.css_attribute_color.active[style="background-color:#Transparent"] {
     border: 4px dotted #2ecc71 !important;
     color: #2ecc71 !important;  
 }
-#sidebar label.css_attribute_color.active.css_not_available[style="background-color: transparent;"], /* Internet Explorer */
-#sidebar label.css_attribute_color.active.css_not_available[style=""], /* Internet Explorer */
-#sidebar label.css_attribute_color.active.css_not_available[style="background-color:Transparent"],
-#sidebar label.css_attribute_color.active.css_not_available[style="background-color:#Transparent"] {
+.sidebar label.css_attribute_color.active.css_not_available[style="background-color: transparent;"], /* Internet Explorer */
+.sidebar label.css_attribute_color.active.css_not_available[style=""], /* Internet Explorer */
+.sidebar label.css_attribute_color.active.css_not_available[style="background-color:Transparent"],
+.sidebar label.css_attribute_color.active.css_not_available[style="background-color:#Transparent"] {
     border: 4px dotted #e74c3c !important;
     color: #e74c3c !important;  
 }
@@ -625,26 +625,26 @@ span.input-group-btn > a.a-submit {
 ================================================================== */
 
 /* Li */
-#sidebar li.form-group.js_attribute_value {
+.sidebar li.form-group.js_attribute_value {
     width: 49%;
     display: inline-block;
     margin-bottom: 4px !important;
 }
 
 /* Label */
-#sidebar label.control-label {
+.sidebar label.control-label {
     margin: 0px 0px 0px 0px !important;
     position: relative;
     top: 0;
     left: 0;
 }
 
-#sidebar label.control-label:hover {
+.sidebar label.control-label:hover {
     margin: 0px 0px 0px 0px !important;
     cursor: pointer;
 }
 
-#sidebar label.control-label::before {
+.sidebar label.control-label::before {
     content: "\f0c8";
     font-family: FontAwesome;
     color: #ffffff;
@@ -657,7 +657,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Label > Input */
-#sidebar label.control-label > input {
+.sidebar label.control-label > input {
     margin: 11px;
     height: 15px;
     width: 15px;
@@ -666,7 +666,7 @@ span.input-group-btn > a.a-submit {
     left: 0;
 }
 
-#sidebar label.control-label > input:checked + span::before { /* Hack temporaire pour styliser checkbox (signe valider) */
+.sidebar label.control-label > input:checked + span::before { /* Hack temporaire pour styliser checkbox (signe valider) */
     content: "\f00c";
     font-family: FontAwesome;
     color: #2ecc71;
@@ -679,7 +679,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Label > Span */
-#sidebar label.control-label > span {
+.sidebar label.control-label > span {
     max-width: 132px;
     display: inline-block;
     margin-top: 9px;
@@ -688,7 +688,7 @@ span.input-group-btn > a.a-submit {
     left: 0;
 }
 
-#sidebar label.control-label > span.badge {
+.sidebar label.control-label > span.badge {
     display: none;
 }
 
@@ -696,7 +696,7 @@ span.input-group-btn > a.a-submit {
   XX. Message d'alerte si produit non-disponible
 ================================================================== */
 
-#sidebar .css_not_available_msg.bg-danger {
+.sidebar .css_not_available_msg.bg-danger {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
@@ -709,12 +709,12 @@ span.input-group-btn > a.a-submit {
   XX. Affichage du prix
 ================================================================== */
 
-#sidebar h4.oe_price_h4 {
+.sidebar h4.oe_price_h4 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#sidebar h4.oe_price_h4 > b.oe_price {
+.sidebar h4.oe_price_h4 > b.oe_price {
     font-size: 3rem;
     font-weight: lighter;
 }
@@ -724,13 +724,13 @@ span.input-group-btn > a.a-submit {
 ================================================================== */
 
 .oe_cart span.input-group-addon, /* Panier */
-#sidebar div.css_quantity.oe_website_spinner > span {
+.sidebar div.css_quantity.oe_website_spinner > span {
     border: none;
     border-bottom: 2px solid #1691BE;
     padding: 0px;
 }
 .oe_cart span.input-group-addon:hover, /* Panier */
-#sidebar div.css_quantity.oe_website_spinner > span:hover {
+.sidebar div.css_quantity.oe_website_spinner > span:hover {
     background: #F4F6F7;
     border-color: #F4F6F7;
     position: relative;
@@ -738,13 +738,13 @@ span.input-group-btn > a.a-submit {
     left: 0px;
 }
 .oe_cart a.js_add_cart_json, /* Panier */
-#sidebar div.css_quantity.oe_website_spinner a {
+.sidebar div.css_quantity.oe_website_spinner a {
     color: #8199A3;
     background: #F4F6F7;
     padding: 8px 12px;
 }
 .oe_cart input.js_quantity, /* Panier */
-#sidebar div.css_quantity.oe_website_spinner > input {
+.sidebar div.css_quantity.oe_website_spinner > input {
     border: none;
     border-top: 1px solid #E2E4E4;
     border-bottom: 1px solid #E2E4E4;
@@ -757,7 +757,7 @@ span.input-group-btn > a.a-submit {
 ================================================================== */
 
 .oe_cart a.btn-primary.pull-right,
-#sidebar a.js_check_product.a-submit {
+.sidebar a.js_check_product.a-submit {
     background-image: none;
     background: #FFFFFF;
     text-shadow: none;
@@ -767,7 +767,7 @@ span.input-group-btn > a.a-submit {
     color: #1691BE;
 }
 .oe_cart a.btn-primary.pull-right:hover,
-#sidebar a.js_check_product.a-submit:hover {
+.sidebar a.js_check_product.a-submit:hover {
     background: #F4F6F7;
     border-bottom: 0px;
     position: relative;
@@ -776,7 +776,7 @@ span.input-group-btn > a.a-submit {
     margin-bottom: 33px !important;
 }
 
-#sidebar a.js_check_product.a-submit::before {
+.sidebar a.js_check_product.a-submit::before {
     content: "\f07a";
     font-family: FontAwesome;
     margin-right: 9px;
