@@ -625,6 +625,7 @@ span.input-group-btn > a.a-submit {
 .sidebar li.form-group.js_attribute_value {
     width: 49%;
     display: inline-block;
+    vertical-align: top;
     margin-bottom: 4px !important;
 }
 
