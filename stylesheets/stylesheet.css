@@ -200,7 +200,7 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 ================================================================== */
 
 /* •••••••••••TEMPORAIRE••••••••••• */
-a[aria-controls="tab_1"], a[aria-controls="tab_8"] { display: none !important; }
+/*a[aria-controls="tab_1"], a[aria-controls="tab_8"] { display: none !important; }*/
 /* •••••••••••••••••••••••••••••••• */
 
 /* Conteneur */
