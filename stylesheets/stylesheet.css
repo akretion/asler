@@ -186,9 +186,9 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 .oe_website_sale a[aria-controls="tab_3"]  { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_4"]  { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_5"]  { border-bottom: 4px solid #166BA2 !important; }
-.oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #e74c3c !important; }
+.oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
 .oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #25C289 !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #1691BE !important; }
 .oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #444B54 !important; }
