@@ -69,7 +69,6 @@ li {
 	}
 }
 
-
 /*===================================================================
   XX. Footer
 ================================================================== */
@@ -182,15 +181,15 @@ footer ul.title3 a:hover { color:  #FFBA00; }
 
 /* nav-tabs border color */
 .oe_website_sale a[aria-controls="tab_0"]  { border-bottom: 4px solid #1691BE !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_1"]  { border-bottom: 4px solid #e74c3c !important; }
-.oe_website_sale a[aria-controls="tab_2"]  { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_1"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_2"]  { border-bottom: 4px solid #FFBA00 !important; }
 .oe_website_sale a[aria-controls="tab_3"]  { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_4"]  { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_5"]  { border-bottom: 4px solid #166BA2 !important; }
 .oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #e74c3c !important; }
 .oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #25C289 !important; }
-.oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #8e44ad !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #25C289 !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #1691BE !important; }
 .oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #444B54 !important; }
 .oe_website_sale a[aria-controls="tab_12"] { border-bottom: 4px solid #444B54 !important; }
@@ -536,7 +535,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Sélecteurs choix des couleurs
+  XX. Sélecteurs choix des couleurs standarts
 ================================================================== */
 
 #sidebar {
@@ -605,8 +604,11 @@ span.input-group-btn > a.a-submit {
     width: 15px;
 }
 
+/*===================================================================
+  XX. Sélecteurs choix des couleurs et matières particulières
+================================================================== */
+
 /* Option Transparent */ 
-/* ENLEVER DÉSIGNATIONS INUTILES À LA FIN !!! Attention #Transparent --> erreur, enlever # */
 #sidebar label.css_attribute_color[style="background-color: transparent;"], /* Internet Explorer */
 #sidebar label.css_attribute_color[style=""], /* Internet Explorer */
 #sidebar label.css_attribute_color[style="background-color:Transparent"],
@@ -627,6 +629,46 @@ span.input-group-btn > a.a-submit {
     border: 4px dotted #e74c3c !important;
     color: #e74c3c !important;  
 }
+
+/* règles de base background-image */
+#sidebar label.css_attribute_color {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* couleurs et matières particulières */
+
+#sidebar label.css_attribute_color[style="background-color:Autre couleur avec supplément"] { 
+    
+    background-image: url('https://localhost:8443/asler/puces/quadri.png');
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* À compléter avec le client */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*===================================================================
   XX. Sélecteurs caractéristiques produits
