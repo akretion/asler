@@ -858,6 +858,10 @@ span.input-group-btn > a.a-submit {
     border: 1px solid #ccc;
 }
 
+#product_detail .product_detail_img {
+    min-height: 220px;
+}
+
 /* ///////////////////////////////////////////////////////// */
 /* HACK TEMPORAIRE EN ATTENDANT CHANGEMENT DE CLASS AKRETION */
 /* ///////////////////////////////////////////////////////// */
