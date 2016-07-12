@@ -77,9 +77,9 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
     display: none;
 }
 
-
-
 footer {
+    display: block;    
+    margin-top: 60px;
     background: none;
 }
 
@@ -480,7 +480,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Pagination (ATTENTION STYLE GÉNÉRAL POUR TOUT LE SITE >> A REVOIR ?)
+  XX. Pagination + Breadcrumb (ATTENTION STYLE GÉNÉRAL POUR TOUT LE SITE >> A REVOIR ?)
 ================================================================== */
 
 .pagination li > a {
@@ -512,6 +512,15 @@ span.input-group-btn > a.a-submit {
 
 .pagination li:last-child > a:hover {
     background: #ECF0F1;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    background: #f7f9f9;
+    padding: 8px 15px;
+    border-radius: 0;
+    border: 1px solid #cccccc;
 }
 
 /*===================================================================
@@ -834,29 +843,150 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
+  XX. Conteneur photos
+================================================================== */
+
+#product_detail #images {
+    border: 1px solid #ccc;
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* HACK TEMPORAIRE EN ATTENDANT CHANGEMENT DE CLASS AKRETION */
+/* ///////////////////////////////////////////////////////// */
+
+#product_detail .col-lg-7 {
+    width: 66.66666667%;
+}
+
+#sidebar.col-lg-offset-1 {
+    margin-left: 0%;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+/*===================================================================
   XX. Intitulés descriptions et caractéristiques 
 ================================================================== */
 
-/* Nuanciers et fiches techniques */
+/* Style général */
+
+#product_detail .feature {
+    margin-top: 15px;
+    background: #ecf0f1;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block; /* Anciens navigateurs */
+    display: flex;
+}
+
+#product_detail .feature hr {
+    display: none;
+}
+
+#product_detail .feature .text-muted {
+    display: inline-block;
+    width: 48.5%;
+    color: #2d2d2d;
+    background: #f7f9f9;
+    padding: 12px 15px;
+    border-radius: 12px;
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Intitulé du paragraphe */
+
+#product_detail .feature .text-muted::before {
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 6px;
+    padding: 0px 0px;
+}
+
+/* Paragraphe CARACTÉRISTIQUES */
+
+#product_detail .feature p.text-muted { 
+    margin-right: 10px; 
+    margin: 15px 7.5px 15px 15px; 
+    float: left; 
+}
+
+#product_detail .feature p.text-muted::before { 
+    content: 'Caractéristiques';
+    color: #FFBA00; 
+}
+
+/* Paragraphe DESCRIPTION */
+
+#product_detail .feature div.text-muted { 
+    margin-left: 10px; 
+    margin: 15px 15px 15px 7.5px; 
+    float: right; 
+} 
+
+#product_detail .feature div.text-muted::before { 
+    content: 'Description'; 
+    color: #1691be; 
+}
+
+/* Liens vers nuancier */
+
 #product_detail .feature a {
     display: block;
     width: 200px;
-    margin: 2px 0px;
-    padding: 8px;
+    margin: 3px 0px;
+    padding: 6px 5px;
+    border-radius: 5px;
     text-align: center;
-    background: #f4f6f7;
+    border-bottom: 2px solid #1691be;
+    background: #ffffff;
     color: #1691be;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
+#product_detail .feature a:hover {  
+    border-bottom: 2px solid transparent;
+    background: #F4F6F7;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
 
+#product_detail .feature a:active {  
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
 
+/* Paragraphe VARIANTE */
 
+#variant_descriptions {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
 
-/* à compléter... */
+p.variant_description.visible {
+    background: #f7f9f9;
+    color: #a0a0a0;
+    font-size: 1.5rem;
+    border-radius: 13px;
+    padding: 3px 8px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
 
-
-
-
+p.variant_description.visible::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+}
 
 /*===================================================================
   XX. Panier - Règlement
