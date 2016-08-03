@@ -536,7 +536,7 @@ span.input-group-btn > a.a-submit {
 #sidebar {
     background: #ECF0F1;
     color: #3E3E3E;
-    height: 100%;
+    min-height: 100%;
     position: absolute;
     right: 0;
     top: 0;
