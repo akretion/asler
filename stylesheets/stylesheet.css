@@ -81,7 +81,7 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
 
 footer {
     display: block;    
-    margin-top: 60px;
+    margin-top: 80px;
     background: none;
 }
 
@@ -98,7 +98,7 @@ footer {
 
 .footer-border > div { 
     height: 4px;
-    width: 80px;
+    width: 60px;
     float: left;
 }
 
