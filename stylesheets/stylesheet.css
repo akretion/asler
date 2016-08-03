@@ -528,18 +528,13 @@ span.input-group-btn > a.a-submit {
 ================================================================== */
 
 #product_detail > div.row:last-child {
-    position: relative;
-    top: 0;
-    left: 0;
+    
 }
 
 #sidebar {
     background: #ECF0F1;
     color: #3E3E3E;
-    min-height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
+    
 }
 
 /*===================================================================
