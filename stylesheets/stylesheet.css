@@ -60,7 +60,14 @@ li {
 }
 
 .navbar-right > li > a {
-	
+    -webkit-transition: none;
+    transition: none;
+}
+
+.navbar-right > li > a:hover {
+    color: #1691BE;
+    -webkit-transition: none;
+    transition: none;
 }
 
 @media (min-width: 768px) {
