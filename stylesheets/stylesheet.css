@@ -60,12 +60,13 @@ li {
 }
 
 .navbar-right > li > a {
+    font-size: 1.5rem;
     -webkit-transition: none;
     transition: none;
 }
 
 .navbar-right > li > a:hover {
-    color: #1691BE;
+    color: #1691BE;;
     -webkit-transition: none;
     transition: none;
 }
@@ -73,7 +74,7 @@ li {
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
-    color: #1691BE;
+    color: #1691BE;;
     -webkit-transition: none;
     transition: none;
 }
