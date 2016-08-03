@@ -524,6 +524,25 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
+  XX. Style général sidebar
+================================================================== */
+
+#product_detail > div.row:last-child {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#sidebar {
+    background: #ECF0F1;
+    color: #3E3E3E;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*===================================================================
   XX. Titre du produit
 ================================================================== */
 
@@ -554,11 +573,6 @@ span.input-group-btn > a.a-submit {
 /*===================================================================
   XX. Sélecteurs choix des couleurs standarts
 ================================================================== */
-
-#sidebar {
-    background: #ECF0F1;
-    color: #3E3E3E;
-}
 
 #sidebar label.css_not_available:hover {
     cursor: not-allowed;
@@ -761,7 +775,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Message d'alerte si produit non-disponible
+  XX. Message d'alerte si option non-disponible
 ================================================================== */
 
 #sidebar .css_not_available_msg.bg-danger {
