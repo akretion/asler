@@ -68,8 +68,14 @@ li {
 .navbar-right > li > a:hover {
     color: #1691BE !important;
     -webkit-transition: none;
-    transition: none;
+    transition: none;    
 }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #1691BE !important;
+}
+
 
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:hover,
