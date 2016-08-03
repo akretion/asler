@@ -85,11 +85,16 @@ footer {
     background: none;
 }
 
+.footer-wrapper {
+    padding: 0px 30px;
+}
+
 /* Bordure colorée */
 
 .footer-border { 
     background: #1691BE;
     height: 4px;
+    margin: 0;
 }
 
 .footer-border > div { 
@@ -110,6 +115,7 @@ footer {
 .footer-title {
     background: #ecf0f1;
     border-bottom: 2px solid #dddede;
+    margin: 0;
 }
 
 .ftitle {
@@ -131,7 +137,7 @@ footer {
 /* Footer list */
 
 .footer-list {
-
+    margin: 0;
 }
 
 footer a:hover {
