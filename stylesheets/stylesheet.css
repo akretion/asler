@@ -120,14 +120,24 @@ footer .horaires {
 
 /* Bordure colorée */
 
-footer div.title1 { border-bottom: 1px solid #1691BE; }
-footer div.title2 { border-bottom: 1px solid #e74c3c; }
-footer div.title3 { border-bottom: 1px solid #FFBA00; }
-footer div.title4 { border-bottom: 1px solid #25C289; }
+.footer-border { 
+    background: #1691BE;
+    height: 4px;
+}
 
-footer ul.title1 a:hover { color:  #1691BE; }
-footer ul.title2 a:hover { color:  #e74c3c; }
-footer ul.title3 a:hover { color:  #FFBA00; }
+.footer-border > div { 
+    height: 4px;
+    width: 60px;
+    float: left;
+}
+
+.footer-border > div:nth-child(0n+1) {background: #1691BE; }
+.footer-border > div:nth-child(0n+2) {background: #e74c3c; }
+.footer-border > div:nth-child(0n+3) {background: #FFBA00; }
+.footer-border > div:nth-child(0n+4) {background: #25C289; }
+.footer-border > div:nth-child(0n+5) {background: #8e44ad; }
+.footer-border > div:nth-child(0n+6) {background: #166BA2; }
+
 
 /*===================================================================
   XX. Tabs - catégories de 1er degré
