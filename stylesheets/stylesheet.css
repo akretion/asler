@@ -265,11 +265,6 @@ footer .horaires {
     padding: 11px 0px 11px 126px;
     text-decoration: none;
     background: #444B54; /* Couleur de base en cas d'erreur */
-    background-image: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent) !important;
-    background-image: -o-linear-gradient(bottom left, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent) !important;
-    background-image: linear-gradient(to top right, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent) !important;
-    -webkit-background-size: 40px 40px !important;
-    background-size: 40px 40px !important;
 }
 
 .oe_website_sale #tab_0  > div > h4 > a { background: #1691BE; }
