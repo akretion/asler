@@ -552,7 +552,7 @@ span.input-group-btn > a.a-submit {
     display: block;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     #product_detail > div.row:last-child {
         display: block;/* DEFAULT: présentation pas optimisée */
         display: -ms-flexbox;/* OLD - IE 10 */
@@ -568,7 +568,7 @@ span.input-group-btn > a.a-submit {
     box-shadow: inset -15px 0px 0px 0px #ffffff;/* Marge artificielle */
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     #sidebar {
         margin-left: 15px;
     }
