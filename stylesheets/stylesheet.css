@@ -738,6 +738,13 @@ span.input-group-btn > a.a-submit {
     }
 }
 
+@media (max-width: 450px) {
+    #sidebar li.form-group.js_attribute_value {
+        display: block;
+        width: 100%;
+    }
+}
+
 /* Label */
 
 #sidebar label.control-label {
@@ -799,6 +806,12 @@ span.input-group-btn > a.a-submit {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #sidebar label.control-label > span {
+        max-width: 210px;
+    }
+}
+
+@media (max-width: 450px) {
     #sidebar label.control-label > span {
         max-width: 210px;
     }
