@@ -587,6 +587,11 @@ span.input-group-btn > a.a-submit {
     padding: 15px 0px 12px 0px;
 }
 
+/* Conteneur options couleur */
+#sidebar .list-inline {
+    margin-left: 4px;
+}
+
 /*===================================================================
   11. Options couleurs standarts
 ================================================================== */
@@ -772,7 +777,7 @@ span.input-group-btn > a.a-submit {
 /* Label > Span */
 
 #sidebar label.control-label > span {
-    max-width: 132px;
+    max-width: 129px;
     display: inline-block;
     margin-top: 9px;
     position: relative;
@@ -918,6 +923,16 @@ span.input-group-btn > a.a-submit {
     display: flex;         /* NORMAL */
 }
 
+@media (max-width: 991px) {
+    #product_detail .feature {
+        margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+    #product_detail .feature {
+        display: block; 
+}
+
 #product_detail .feature hr {
     display: none;
 }
@@ -935,8 +950,13 @@ span.input-group-btn > a.a-submit {
     left: 0;
 }
 
-@media (max-width: 991px) {
-
+@media (max-width: 767px) {
+    #product_detail .feature .text-muted {
+        display: block;
+        float: none !important;
+        width: 100%;
+        margin: 0px 0px 0px 0px !important;
+    }
 }
 
 /* Intitulé du paragraphe */
@@ -967,7 +987,7 @@ span.input-group-btn > a.a-submit {
     margin-left: 10px; 
     margin: 15px 15px 15px 7.5px; 
     float: right; 
-} 
+}
 
 #product_detail .feature div.text-muted::before { 
     content: 'Description'; 
