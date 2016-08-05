@@ -568,6 +568,12 @@ span.input-group-btn > a.a-submit {
     box-shadow: inset -15px 0px 0px 0px #ffffff;/* Marge artificielle */
 }
 
+@media (min-width: 767px) {
+    #sidebar {
+        margin-left: 15px;
+    }
+}
+
 /* Titre du produit */
 #sidebar h1 {
     font-size: 34px;
@@ -932,6 +938,7 @@ span.input-group-btn > a.a-submit {
 @media (max-width: 767px) {
     #product_detail .feature {
         display: block; 
+        background: transparent;
     }
 }
 
@@ -957,7 +964,7 @@ span.input-group-btn > a.a-submit {
         display: block;
         float: none !important;
         width: 100%;
-        margin: 0px 0px 0px 0px !important;
+        margin: 15px 0px 0px 0px !important;
     }
 }
 
