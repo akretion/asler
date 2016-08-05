@@ -558,7 +558,7 @@ span.input-group-btn > a.a-submit {
 #sidebar {
     background: #ECF0F1;
     color: #3E3E3E;
-    margin-right: 15px;
+    box-shadow: inset -15px 0px 0px 0px #ffffff;/* Marge artificielle */
 }
 
 /* Titre du produit */
