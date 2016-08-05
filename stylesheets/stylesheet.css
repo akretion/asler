@@ -22,7 +22,7 @@
 16. Affichage du prix
 17. Choix de quantité
 18. Ajouter au panier
-19. Photos produit
+19. Photos produits
 20. Description et caractéristiques
 21. Panier - Règlement
 
@@ -868,7 +868,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  19. Photos produit
+  19. Photos produits
 ================================================================== */
 
 #product_detail #images {
