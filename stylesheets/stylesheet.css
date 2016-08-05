@@ -568,7 +568,7 @@ span.input-group-btn > a.a-submit {
     box-shadow: inset -15px 0px 0px 0px #ffffff;/* Marge artificielle */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     #sidebar {
         margin-left: 15px;
     }
@@ -731,6 +731,13 @@ span.input-group-btn > a.a-submit {
     margin-bottom: 4px !important;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #sidebar li.form-group.js_attribute_value {
+        display: block;
+        width: 100%;
+    }
+}
+
 /* Label */
 
 #sidebar label.control-label {
@@ -789,6 +796,12 @@ span.input-group-btn > a.a-submit {
     position: relative;
     top: 0;
     left: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #sidebar label.control-label > span {
+        max-width: 210px;
+    }
 }
 
 #sidebar label.control-label > span.badge {
