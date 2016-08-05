@@ -926,11 +926,13 @@ span.input-group-btn > a.a-submit {
 @media (max-width: 991px) {
     #product_detail .feature {
         margin-bottom: 70px;
+    }
 }
 
 @media (max-width: 767px) {
     #product_detail .feature {
         display: block; 
+    }
 }
 
 #product_detail .feature hr {
