@@ -549,10 +549,16 @@ span.input-group-btn > a.a-submit {
 ================================================================== */
 
 #product_detail > div.row:last-child {
-    display: block;        /* DEFAULT: présentation pas optimisée */
-    display: -ms-flexbox;  /* OLD - IE 10 */
-    display: -webkit-flex; /* OLD - Chrome */
-    display: flex;         /* NORMAL */
+    display: block;
+}
+
+@media (min-width: 991px) {
+    #product_detail > div.row:last-child {
+        display: block;/* DEFAULT: présentation pas optimisée */
+        display: -ms-flexbox;/* OLD - IE 10 */
+        display: -webkit-flex;/* OLD - Chrome */
+        display: flex;/* NORMAL */
+    }
 }
 
 #sidebar {
