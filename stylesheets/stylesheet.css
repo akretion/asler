@@ -2,25 +2,34 @@
 
 /*------------------------------------------------------------------
 
-https://localhost:8443/asler/styles.css
-
 [Sommaire]
 
-01. Styles généraux
-02. 
-03. 
-04. 
-05. 
-06. 
-07. 
-08. 
-09. 
-10. 
+01. Style général
+02. Header
+03. Footer
+04. Tabs - catégories de 1er degré
+05. Tabs - catégories de 2ème degré
+06. Tabs - catégories de 3ème degré
+07. Products pager + Champs rechercher
+08. Tableaux produit
+09. Pagination + Breadcrumb
+10. Sidebar
+11. Options couleurs standarts
+12. Option transparent
+13. Options matières (avec background-image)
+14. Options caractéristiques
+15. Message d'alerte si option non-disponible
+16. Affichage du prix
+17. Choix de quantité
+18. Ajouter au panier
+19. Photos produit
+20. Description et caractéristiques
+21. Panier - Règlement
 
 -------------------------------------------------------------------*/
 
 /*===================================================================
-  01. Styles généraux
+  01. Style général
 ================================================================== */
 
 html {
@@ -46,7 +55,7 @@ li {
 }
 
 /*===================================================================
-  XX. Header
+  02. Header
 ================================================================== */
 
 .navbar-default {
@@ -91,7 +100,7 @@ li {
 }
 
 /*===================================================================
-  XX. Footer
+  03. Footer
 ================================================================== */
 
 footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
@@ -156,7 +165,7 @@ footer .horaires {
 }
 
 /*===================================================================
-  XX. Tabs - catégories de 1er degré
+  04. Tabs - catégories de 1er degré
 ================================================================== */
 
 .oe_website_sale .nav-tabs {
@@ -224,12 +233,8 @@ footer .horaires {
 .oe_website_sale a[aria-controls="tab_15"] { border-bottom: 4px solid #444B54 !important; }
 
 /*===================================================================
-  XX. Tabs - catégories de 2ème degré
+  05. Tabs - catégories de 2ème degré
 ================================================================== */
-
-/* •••••••••••TEMPORAIRE••••••••••• */
-/*a[aria-controls="tab_1"], a[aria-controls="tab_8"] { display: none !important; }*/
-/* •••••••••••••••••••••••••••••••• */
 
 /* Conteneur */
 .oe_website_sale .tab-pane {
@@ -307,7 +312,7 @@ footer .horaires {
 }
 
 /*===================================================================
-  XX. Tabs - catégories de 3ème degré
+  06. Tabs - catégories de 3ème degré
 ================================================================== */
 
 .oe_website_sale .tab-pane > div > ul {
@@ -353,7 +358,6 @@ footer .horaires {
     margin-top: 30px;
 }
 
-
 #products_grid_before a {
     background: none;
 }
@@ -369,7 +373,6 @@ footer .horaires {
     font-size: 1.55rem;
     padding: 8px 0px 8px 0px;
 }
-
 
 #products_grid_before > ul.nav-pills > li > a.active::before {
     content: '\f146';
@@ -404,7 +407,7 @@ footer .horaires {
 }
 
 /*===================================================================
-  XX. Products pager + Champs rechercher
+  07. Products pager + Champs rechercher
 ================================================================== */
 
 .tab-content + .products_pager {
@@ -412,7 +415,6 @@ footer .horaires {
     border-bottom: 2px solid #a0a0a0;
     margin-top: 0px;
 }
-
 
 /* Formulaire de recherche */
 input.search-query.form-control {
@@ -428,14 +430,8 @@ span.input-group-btn > a.a-submit {
     box-shadow: none;
 }
 
-
-
-/*  à compléter ... */
-
-
-
 /*===================================================================
-  XX. Grille produit
+  08. Tableaux produit
 ================================================================== */
 
 .oe_website_sale .tab-content {
@@ -445,7 +441,7 @@ span.input-group-btn > a.a-submit {
     min-height: 306px;
 }
 
-/* grille */
+/* table */
 #products_grid table {
     border-collapse: separate;
     border-spacing: 15px;
@@ -505,7 +501,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Pagination + Breadcrumb (ATTENTION STYLE GÉNÉRAL POUR TOUT LE SITE >> A REVOIR ?)
+  09. Pagination + Breadcrumb
 ================================================================== */
 
 .pagination li > a {
@@ -549,11 +545,14 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Style général sidebar
+  10. Sidebar
 ================================================================== */
 
 #product_detail > div.row:last-child {
-    display: flex;
+    display: block;        /* DEFAULT: présentation pas optimisée */
+    display: -ms-flexbox;  /* OLD - IE 10 */
+    display: -webkit-flex; /* OLD - Chrome */
+    display: flex;         /* NORMAL */
 }
 
 #sidebar {
@@ -562,28 +561,19 @@ span.input-group-btn > a.a-submit {
     margin-right: 15px;
 }
 
-/*===================================================================
-  XX. Titre du produit
-================================================================== */
-
+/* Titre du produit */
 #sidebar h1 {
     font-size: 34px;
 }
 
-/*===================================================================
-  XX. Description courte produit
-================================================================== */
-
+/* Description courte produit */
 #sidebar p.short_description {
     font-size: 1.6rem;
     padding: 13px 0px 0px 0px;
     color: #7D7D7D;
 }
 
-/*===================================================================
-  XX. Intitulés produits
-================================================================== */
-
+/* Intitulés produits */
 #sidebar .js_product strong {
     font-size: 1.7rem;
     display: block;
@@ -591,7 +581,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Sélecteurs choix des couleurs standarts
+  11. Options couleurs standarts
 ================================================================== */
 
 #sidebar label.css_not_available:hover {
@@ -656,10 +646,9 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Sélecteurs choix des couleurs et matières particulières
+  12. Option transparent
 ================================================================== */
 
-/* Option Transparent */ 
 #sidebar label.css_attribute_color[style="background-color: transparent;"], /* Internet Explorer */
 #sidebar label.css_attribute_color[style=""], /* Internet Explorer */
 #sidebar label.css_attribute_color[style="background-color:Transparent"],
@@ -681,6 +670,10 @@ span.input-group-btn > a.a-submit {
     color: #e74c3c !important;  
 }
 
+/*===================================================================
+  13. Options matières (avec background-image)
+================================================================== */
+
 /* règles de base background-image */
 #sidebar label.css_attribute_color {
     background-size: 100%;
@@ -698,31 +691,18 @@ span.input-group-btn > a.a-submit {
 
 
 
+/*************************
 
+À compléter avec le client 
 
-
-
-
-
-
-
-/* À compléter avec le client */
-
-
-
-
-
-
-
-
-
+**************************/
 
 
 
 
 
 /*===================================================================
-  XX. Sélecteurs caractéristiques produits
+  14. Options caractéristiques
 ================================================================== */
 
 /* Li */
@@ -734,6 +714,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Label */
+
 #sidebar label.control-label {
     margin: 0px 0px 0px 0px !important;
     position: relative;
@@ -759,6 +740,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Label > Input */
+
 #sidebar label.control-label > input {
     margin: 11px;
     height: 15px;
@@ -781,6 +763,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Label > Span */
+
 #sidebar label.control-label > span {
     max-width: 132px;
     display: inline-block;
@@ -795,7 +778,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Message d'alerte si option non-disponible
+  15. Message d'alerte si option non-disponible
 ================================================================== */
 
 #sidebar .css_not_available_msg.bg-danger {
@@ -808,7 +791,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Affichage du prix
+  16. Affichage du prix
 ================================================================== */
 
 #sidebar h4.oe_price_h4 {
@@ -822,7 +805,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Boutons choix de quantité
+  17. Choix de quantité
 ================================================================== */
 
 .oe_cart span.input-group-addon, /* Panier */
@@ -855,7 +838,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Bouton ajouter au panier
+  18. Ajouter au panier
 ================================================================== */
 
 .oe_cart a.btn-primary.pull-right,
@@ -885,7 +868,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  XX. Conteneur photos
+  19. Photos produit
 ================================================================== */
 
 #product_detail #images {
@@ -900,18 +883,18 @@ span.input-group-btn > a.a-submit {
 /* HACK TEMPORAIRE EN ATTENDANT CHANGEMENT DE CLASS AKRETION */
 /* ///////////////////////////////////////////////////////// */
 
-#product_detail .col-lg-7 {
-    width: 66.66666667%;
+#product_detail .col-lg-7 { 
+    width: 66.66666667%; 
 }
-
-#sidebar.col-lg-offset-1 {
-    margin-left: 0%;
+#sidebar.col-lg-offset-1 { 
+    margin-left: 0%; 
 }
 
 /* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
 
 /*===================================================================
-  XX. Intitulés descriptions et caractéristiques 
+  20. Description et caractéristiques
 ================================================================== */
 
 /* Style général */
@@ -1038,7 +1021,7 @@ p.variant_description.visible::before {
 }
 
 /*===================================================================
-  XX. Panier - Règlement
+  21. Panier - Règlement
 ================================================================== */
 
 /* Tableau récapitulatif */
