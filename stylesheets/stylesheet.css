@@ -564,6 +564,7 @@ span.input-group-btn > a.a-submit {
 #sidebar {
     background: #ECF0F1;
     color: #3E3E3E;
+    padding-right: 30px;
     box-shadow: inset -15px 0px 0px 0px #ffffff;/* Marge artificielle */
 }
 
@@ -911,8 +912,10 @@ span.input-group-btn > a.a-submit {
     position: relative;
     top: 0;
     left: 0;
-    display: block; /* Anciens navigateurs */
-    display: flex;
+    display: block;        /* DEFAULT: présentation pas optimisée */
+    display: -ms-flexbox;  /* OLD - IE 10 */
+    display: -webkit-flex; /* OLD - Chrome */
+    display: flex;         /* NORMAL */
 }
 
 #product_detail .feature hr {
@@ -930,6 +933,10 @@ span.input-group-btn > a.a-submit {
     position: relative;
     top: 0;
     left: 0;
+}
+
+@media (max-width: 991px) {
+
 }
 
 /* Intitulé du paragraphe */
