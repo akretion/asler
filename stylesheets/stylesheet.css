@@ -99,6 +99,12 @@ li {
 	}
 }
 
+/* Petits écrans */
+
+.navbar-collapse {
+    border-top: none;
+}
+
 /*===================================================================
   03. Footer
 ================================================================== */
@@ -172,6 +178,30 @@ footer .horaires {
     margin-bottom: 0px; 
 }
 
+@media (max-width: 1199px) {
+    .oe_website_sale .nav-tabs {
+        height: 100%;
+        border-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .oe_website_sale .nav-tabs {
+        background: none;
+        margin: 0 -7.5px 7.5px -7.5px;
+    }
+    .oe_website_sale .nav.nav-tabs > li {
+        width: 25%;
+        padding: 7.5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .oe_website_sale .nav.nav-tabs > li {
+        width: 33.33333333%;
+    }
+}
+
 .oe_website_sale .nav.nav-tabs > li > a {
     height: 56px;
     margin-right: 0px;
@@ -183,6 +213,9 @@ footer .horaires {
     max-width: 114px;
     color: #484848;
     font-size: 1.34rem;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .oe_website_sale .nav.nav-tabs > li > a::after {
@@ -194,6 +227,21 @@ footer .horaires {
     z-index: 1;
     bottom: 10px;
     right: 0px;
+}
+
+@media (max-width: 991px) {
+    .oe_website_sale .nav.nav-tabs > li > a::after{
+        position: absolute;
+        width: 80%;
+        height: 40%;
+        left: 10%;
+        border-radius: 50%;
+        z-index: -1;
+        bottom: 0%;
+        content: "";
+        box-shadow: 0 7px 16px rgba(0,0,0,0.4);
+        background: none;
+    }
 }
 
 .oe_website_sale .nav.nav-tabs > li > a:hover {
@@ -229,6 +277,57 @@ footer .horaires {
 .oe_website_sale a[aria-controls="tab_14"] { border-bottom: 4px solid #444B54 !important; }
 .oe_website_sale a[aria-controls="tab_15"] { border-bottom: 4px solid #444B54 !important; }
 
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .oe_website_sale .nav.nav-tabs > li > a {
+        font-size: 1.15rem;
+        max-width: 92px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+    .oe_website_sale .nav.nav-tabs > li > a {
+        color: #ffffff;
+        width: 100%;
+        height: 0px;
+        max-width: none;
+        font-size: 1.8rem;
+        border-bottom: none !important;
+        padding: 36% 0 64% 0 !important;
+    }
+
+    .oe_website_sale a[aria-controls="tab_0"]  { background: #1691BE; }
+    .oe_website_sale a[aria-controls="tab_1"]  { background: #e74c3c; }
+    .oe_website_sale a[aria-controls="tab_2"]  { background: #FFBA00; }
+    .oe_website_sale a[aria-controls="tab_3"]  { background: #25C289; }
+    .oe_website_sale a[aria-controls="tab_4"]  { background: #8e44ad; }
+    .oe_website_sale a[aria-controls="tab_5"]  { background: #166BA2; }
+    .oe_website_sale a[aria-controls="tab_6"]  { background: #e74c3c; }
+    .oe_website_sale a[aria-controls="tab_7"]  { background: #FFBA00; }
+    .oe_website_sale a[aria-controls="tab_8"]  { background: #25C289; }
+    .oe_website_sale a[aria-controls="tab_9"]  { background: #8e44ad; }
+    .oe_website_sale a[aria-controls="tab_10"] { background: #1691BE; }
+    .oe_website_sale a[aria-controls="tab_11"] { background: #444B54; }
+    .oe_website_sale a[aria-controls="tab_12"] { background: #444B54; }
+    .oe_website_sale a[aria-controls="tab_13"] { background: #444B54; }
+    .oe_website_sale a[aria-controls="tab_14"] { background: #444B54; }
+    .oe_website_sale a[aria-controls="tab_15"] { background: #444B54; }
+
+}
+
+@media (max-width: 596px) {
+    .oe_website_sale .nav.nav-tabs > li > a {
+        font-size: 1.6rem;    
+    }
+}
+
+@media (max-width: 400px) {
+    .oe_website_sale .nav.nav-tabs > li > a {
+        font-size: 1.3rem;    
+    }
+}
+
 /*===================================================================
   05. Tabs - catégories de 2ème degré
 ================================================================== */
@@ -251,6 +350,18 @@ footer .horaires {
     position: relative;
     top: 0;
     left: 0;
+}
+
+@media (max-width: 1199px) {
+    .oe_website_sale .tab-pane > div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .oe_website_sale .tab-pane > div {
+        width: 100%;
+    }
 }
 
 /* Bandeau coloré */
@@ -547,6 +658,12 @@ span.input-group-btn > a.a-submit {
 
 #product_detail > div.row:last-child {
     display: block;
+}
+
+@media (max-width: 767px) {
+    #product_detail > div.row:last-child {
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 992px) {
