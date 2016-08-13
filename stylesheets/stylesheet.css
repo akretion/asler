@@ -896,7 +896,7 @@ span.input-group-btn > a.a-submit {
     left: 0;
 }
 
-#sidebar label.control-label > input:checked + span::before { /* Hack temporaire pour styliser checkbox (signe valider) */
+#sidebar label.control-label > input:checked + span::before {
     content: "\f00c";
     font-family: FontAwesome;
     color: #2ecc71;
@@ -1036,20 +1036,6 @@ span.input-group-btn > a.a-submit {
 #product_detail .product_detail_img {
     min-height: 220px;
 }
-
-/* ///////////////////////////////////////////////////////// */
-/* HACK TEMPORAIRE EN ATTENDANT CHANGEMENT DE CLASS AKRETION */
-/* ///////////////////////////////////////////////////////// */
-
-#product_detail .col-lg-7 { 
-    width: 66.66666667%; 
-}
-#sidebar.col-lg-offset-1 { 
-    margin-left: 0%; 
-}
-
-/* ///////////////////////////////////////////////////////// */
-/* ///////////////////////////////////////////////////////// */
 
 /*===================================================================
   20. Description et caractéristiques
