@@ -434,6 +434,13 @@ footer .horaires {
     padding-left: 126px;
 }
 
+@media (max-width: 767px) {
+    .oe_website_sale .tab-pane > div > ul {
+        width: 100%;
+    }
+}
+
+
 .oe_website_sale .tab-pane > div > ul > li > a {
     display: block;        /* DEFAULT: présentation pas optimisée */
     display: -ms-flexbox;  /* OLD - IE 10 */
