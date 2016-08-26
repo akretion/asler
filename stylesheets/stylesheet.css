@@ -380,6 +380,12 @@ footer .horaires {
     background: #444B54; /* Couleur de base en cas d'erreur */
 }
 
+@media (max-width: 767px) { 
+    .oe_website_sale .tab-pane > div > h4 > a {
+        width: 100%;
+    }
+}
+
 .oe_website_sale #tab_0  > div > h4 > a { background: #1691BE; }
 .oe_website_sale #tab_1  > div > h4 > a { background: #e74c3c; }
 .oe_website_sale #tab_2  > div > h4 > a { background: #FFBA00; }
@@ -563,6 +569,13 @@ span.input-group-btn > a.a-submit {
     transition: background 0.2s ease-in-out;
 }
 
+@media (max-width: 768px) {
+    #products_grid .oe_product {
+        height: 300px;
+        margin-top: 20px;
+    }
+}
+
 #products_grid .oe_product:hover {
     background: #C6CCCE;
     -webkit-transition: background 0.2s ease-in-out;
@@ -600,7 +613,7 @@ span.input-group-btn > a.a-submit {
 
 .oe_product section {
     border-top: none;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8) !important;
 }
 
 .oe_product .product_price {
