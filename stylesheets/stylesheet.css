@@ -432,11 +432,13 @@ footer .horaires {
 .oe_website_sale .tab-pane > div > ul {
     width: 80%;
     padding-left: 126px;
+    min-height: 65px;
 }
 
 @media (max-width: 767px) {
     .oe_website_sale .tab-pane > div > ul {
         width: 100%;
+        min-height: 40px;
     }
 }
 
