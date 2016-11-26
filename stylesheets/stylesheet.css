@@ -22,7 +22,7 @@
 16. Affichage du prix
 17. Choix de quantité
 18. Ajouter au panier
-19. Photos produits
+19. Photos produits / carousel
 20. Description et caractéristiques
 21. Panier - Règlement
 
@@ -571,58 +571,45 @@ span.input-group-btn > a.a-submit {
 }
 
 #products_grid .oe_product {
-    border: none;
-    background: #ECF0F1;
-    -webkit-transition: background 0.2s ease-in-out;
-    -moz-transition: background 0.2s ease-in-out;
-    transition: background 0.2s ease-in-out;
+    height: 360px;
+    background: #ffffff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #products_grid .oe_product {
-        height: 300px;
-        margin-top: 20px;
+        height: 238px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #products_grid .oe_product {
+        height: 258px;
+    }
+}
+
+@media (max-width: 767px) {
+    #products_grid .oe_product {
+        margin: 8px 0px;
     }
 }
 
 #products_grid .oe_product:hover {
-    background: #C6CCCE;
-    -webkit-transition: background 0.2s ease-in-out;
-    -moz-transition: background 0.2s ease-in-out;
-    transition: background 0.2s ease-in-out;
-}
-
-#products_grid .oe_product::after {
-    position: absolute;
-    width: 80%;
-    height: 40%;
-    left: 10%;
-    border-radius: 50%;
-    z-index: -1;
-    bottom: 0%;
-    content: "";
-    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
-}
-
-.oe_product .oe_product_image {
-    position: absolute;
-    left: 20px;
-    right: 20px;
-    top: 20px;
-    bottom: 30px;
-    text-align: center;
-    overflow: hidden;
+    border-color: #616161;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .oe_product .oe_product_image img {
-    width: 100%;
-    height: auto;
     margin: 0;
 }
 
 .oe_product section {
     border-top: none;
-    background: rgba(255, 255, 255, 0.8) !important;
+    background: #ffffff !important;
 }
 
 .oe_product .product_price {
@@ -749,13 +736,15 @@ span.input-group-btn > a.a-submit {
 
 #sidebar label.css_attribute_color {
     margin-bottom: 0px;
-    border: 4px solid #ECF0F1;
+    margin: 4px;
+    border: 2px solid #616161;
     position: relative;
     top: 0;
     left: 0;
 }
 
 #sidebar label.css_attribute_color.active {
+    margin: 2px;
     border: 4px solid #2ecc71;
 }
 
@@ -807,20 +796,23 @@ span.input-group-btn > a.a-submit {
 #sidebar label.css_attribute_color[style=""], /* Internet Explorer */
 #sidebar label.css_attribute_color[style="background-color:Transparent"],
 #sidebar label.css_attribute_color[style="background-color:#Transparent"] {
-    border: 4px dotted #444B54 !important;  
+    margin: 6px !important;  
+    border: none !important;
 }
 #sidebar label.css_attribute_color.active[style="background-color: transparent;"], /* Internet Explorer */
 #sidebar label.css_attribute_color.active[style=""], /* Internet Explorer */
 #sidebar label.css_attribute_color.active[style="background-color:Transparent"],
 #sidebar label.css_attribute_color.active[style="background-color:#Transparent"] {
-    border: 4px dotted #2ecc71 !important;
+    margin: 2px !important;
+    border: 4px solid #2ecc71 !important;
     color: #2ecc71 !important;  
 }
 #sidebar label.css_attribute_color.active.css_not_available[style="background-color: transparent;"], /* Internet Explorer */
 #sidebar label.css_attribute_color.active.css_not_available[style=""], /* Internet Explorer */
 #sidebar label.css_attribute_color.active.css_not_available[style="background-color:Transparent"],
 #sidebar label.css_attribute_color.active.css_not_available[style="background-color:#Transparent"] {
-    border: 4px dotted #e74c3c !important;
+    margin: 2px !important;
+    border: 4px solid #e74c3c !important;
     color: #e74c3c !important;  
 }
 
@@ -1150,15 +1142,35 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  19. Photos produits
+  19. Photos produits / carousel
 ================================================================== */
 
 #product_detail #images {
     border: 1px solid #ccc;
 }
 
-#product_detail .product_detail_img {
-    min-height: 220px;
+#product_detail #multi_image_carousel {
+    margin-bottom: 0 !important;
+}
+
+#product_detail .carousel-inner .item {
+    height: 400px;
+    margin: 0px auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#product_detail .carousel-control {
+    opacity: 1;
+    background-image: none;
+    color: #cccccc;
+    text-shadow: none;
+}
+
+#product_detail .carousel-control:hover {
+    opacity: 1;
+    color: #999999;
 }
 
 /*===================================================================
