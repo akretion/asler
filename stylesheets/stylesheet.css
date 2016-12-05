@@ -16,15 +16,18 @@
 10. Sidebar
 11. Options couleurs standarts
 12. Option transparent
-13. Options matières (avec background-image)
-14. Options caractéristiques
-15. Message d'alerte si option non-disponible
-16. Affichage du prix
-17. Choix de quantité
-18. Ajouter au panier
-19. Photos produits / carousel
-20. Description et caractéristiques
-21. Panier - Règlement
+13. Options caractéristiques
+14. Message d'alerte si option non-disponible
+15. Affichage du prix
+16. Choix de quantité
+17. Ajouter au panier
+18. Photos produits / carousel
+19. Description et caractéristiques
+20. Panier - Règlement
+
+- À la fin volontairement, pour faciliter l'ajout de nouveaux boutons -
+
+21. Options matières (avec background-image)
 
 -------------------------------------------------------------------*/
 
@@ -816,141 +819,9 @@ span.input-group-btn > a.a-submit {
     color: #e74c3c !important;  
 }
 
-/*===================================================================
-  13. Options matières (avec background-image)
-================================================================== */
-
-/* règles de base background-image */
-#sidebar label.css_attribute_color {
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-/* couleurs et matières particulières */
-
-#sidebar label.css_attribute_color[style="background-color:Autre couleur avec supplément"] { background-image: url('https://localhost:8443/asler/puces/quadri.png'); }
-
-
-#sidebar label.css_attribute_color[style="background-color:Calvados"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/calvados.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Cerisier"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cerisier.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Chêne clair"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_clair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Chêne clair GI"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_clair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Chêne fil GX"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_de_fil.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Crème"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/creme.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Erable GI"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/erable.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Erable blanc"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/erable_blanc.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Alder"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/alder.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Argent b"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ARGENT.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Aluminium 9006"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ARGENT.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Assorti Classique"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Assortiment coloris pastels"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_PASTEL.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Assorti intense"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_VIF.'); }
-#sidebar label.css_attribute_color[style="background-color:Assortiment coloris vifs"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_VIF.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Aulne  naturel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/aulne_naturel.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Beech"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/beech.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Pin vieilli"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/beech.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Beech grey"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/beech_grey.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore Bleu / Vert"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_BLEU_VERT.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore Rouge / Noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_ROUGE_NOIR.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Black"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/black.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore bleu clair / pourtour bleu foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_BcpBf.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore bleu foncé / pourtour bleu clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_BfpBc.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore brique / pourtour orange"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_BpO.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore orange / pourtour brique"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_OpB.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore Vert clair / pourtour vert foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_VcpVf.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bicolore Vert foncé / pourtour Vert clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_VfpVc.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Assorti fluo"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FLUO_ASSORTI.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Gris clair a"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/gris_clair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Gris étain"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/gris_etain.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Gris martelé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/GRIS_MARTELE.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Gris et Noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/GRIS_NOIR.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Hêtre GI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/hetre.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Hêtre naturel ME MI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/hetre_naturel.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Luna beige"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/luna_beige.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Maryland clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/maryland_clair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Maryland foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/maryland_fonce.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Multicolore"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/MULTICOLORE.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois beige clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_beige_clair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois blanc"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_blanc.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois naturel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_bois_naturel.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois gris"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_gris.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois marron"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_marron.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_noir.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois perle"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_perle.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois taupe clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_taupe_clair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois taupe foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_taupe_fonce.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Argile"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_argile.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Aubergine  ME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_aubergine.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Blanc Antique"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_blc_antique.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Blanc Craie"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_blc_craie.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Blanc moucheté"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_blc_mouchete.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Carambole"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_carambole.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Coquille d'oeuf"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_coq_oeuf.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Gris perle"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_gris_perle.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Hêtre naturel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_hetre_naturel.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Horizon"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_horizon.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Kaki"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_kaki.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Mimosa"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_mimosa.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Poirier ME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_poirier.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Pomme verte"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_pomme_verte.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Rouge MEL"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_rouge.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Seringa"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_seringa.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Iris"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_t_iris.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Paprika"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_t_paprika.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Anis SK"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_anis.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Blanc translucide"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_blanc_translucide.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Bois de rose"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_bois_de_rose.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Cendre"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_cendre.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Chair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_chair.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Chanvre"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_chanvre.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Châtaigne"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_chataigne.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Ciment"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ciment.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Cire"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_cire.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Craie"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_craie.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Ecume"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ecume.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Ficelle"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ficelle.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Ivoire sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ivoire.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Lin sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_lin.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Noisette"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_noisette.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Nuage"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_nuage.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Orage"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_orage.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Paille sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_paille.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Pierre sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_pierre.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Poivre"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_poivre.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Sable"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_sable.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Olivier"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/olivier.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Or"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/OR.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Poirier GI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/poirier.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Pommier bois"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/pommier.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Pommier blanc"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/pommier_blanc.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Quadri"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/QUADRI.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Transparent"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/TRANSPARENT.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Tricolore Rouge / bleu / jaune"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/TRICOLORE_ROUGE_BLEU_JAUNE.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Wengué NG MI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/wenge.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Wengé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/wenge.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Slate"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/slate.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Cherry"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cherry.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Cognac"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cognac.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Colombo"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/colombo.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Havana"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/havana.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Mahogany"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/mahogany.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Orange"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_orange.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Palisander"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/palisander.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Orange bois"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/orange.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Orme"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/orme.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Walnut"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/walnut.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Chêne sheffield"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_sheffield.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Frêne blanchi"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_blanchi.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Frêne noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_noir.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Frêne teinte gris"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_teinte_gris.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Frêne teinte noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_teinte_noir.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Pommier"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_pommier_h.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Noyer"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noyer.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Noir décor"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noir_decor.jpg'); }
-#sidebar label.css_attribute_color[style="background-color:Toscan soleil OME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_toscan_sol.jpg'); }
 
 /*===================================================================
-  14. Options caractéristiques
+  13. Options caractéristiques
 ================================================================== */
 
 /* Li */
@@ -1052,7 +923,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  15. Message d'alerte si option non-disponible
+  14. Message d'alerte si option non-disponible
 ================================================================== */
 
 #sidebar .css_not_available_msg.bg-danger {
@@ -1065,7 +936,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  16. Affichage du prix
+  15. Affichage du prix
 ================================================================== */
 
 #sidebar h4.oe_price_h4 {
@@ -1079,7 +950,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  17. Choix de quantité
+  16. Choix de quantité
 ================================================================== */
 
 .oe_cart span.input-group-addon, /* Panier */
@@ -1112,7 +983,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  18. Ajouter au panier
+  17. Ajouter au panier
 ================================================================== */
 
 .oe_cart a.btn-primary.pull-right,
@@ -1142,7 +1013,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  19. Photos produits / carousel
+  18. Photos produits / carousel
 ================================================================== */
 
 #product_detail #images {
@@ -1174,7 +1045,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  20. Description et caractéristiques
+  19. Description et caractéristiques
 ================================================================== */
 
 /* Style général */
@@ -1325,7 +1196,7 @@ p.variant_description.visible::before {
 }
 
 /*===================================================================
-  21. Panier - Règlement
+  20. Panier - Règlement
 ================================================================== */
 
 /* Tableau récapitulatif */
@@ -1398,3 +1269,164 @@ p.variant_description.visible::before {
     left: 0px;
     margin-bottom: 35px !important;
 }
+
+
+/*===================================================================
+- À la fin volontairement, pour faciliter l'ajout de nouveaux boutons -
+
+  21. Options matières (avec background-image)
+================================================================== */
+
+/* règles de base background-image */
+#sidebar label.css_attribute_color {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* couleurs et matières particulières */
+
+#sidebar label.css_attribute_color[style="background-color:Autre couleur avec supplément"] { background-image: url('https://localhost:8443/asler/puces/quadri.png'); }
+
+
+#sidebar label.css_attribute_color[style="background-color:Calvados"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/calvados.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cerisier"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cerisier.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Chêne clair"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Chêne clair GI"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Chêne fil GX"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_de_fil.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Crème"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/creme.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Erable GI"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/erable.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Erable blanc"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/erable_blanc.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Alder"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/alder.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Argent b"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ARGENT.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Aluminium 9006"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ARGENT.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assorti Classique"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assortiment coloris pastels"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_PASTEL.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assorti intense"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_VIF.'); }
+#sidebar label.css_attribute_color[style="background-color:Assortiment coloris vifs"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_VIF.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Aulne  naturel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/aulne_naturel.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Beech"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/beech.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Pin vieilli"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/beech.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Beech grey"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/beech_grey.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore Bleu / Vert"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_BLEU_VERT.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore Rouge / Noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_ROUGE_NOIR.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Black"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/black.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore bleu clair / pourtour bleu foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_BcpBf.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore bleu foncé / pourtour bleu clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_BfpBc.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore brique / pourtour orange"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_BpO.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore orange / pourtour brique"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_OpB.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore Vert clair / pourtour vert foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_VcpVf.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bicolore Vert foncé / pourtour Vert clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_BICOLOR_VfpVc.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assorti fluo"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FLUO_ASSORTI.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Gris clair a"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/gris_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Gris étain"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/gris_etain.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Gris martelé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/GRIS_MARTELE.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Gris et Noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/GRIS_NOIR.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Hêtre GI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/hetre.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Hêtre naturel ME MI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/hetre_naturel.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Luna beige"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/luna_beige.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Maryland clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/maryland_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Maryland foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/maryland_fonce.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Multicolore"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/MULTICOLORE.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois beige clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_beige_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois blanc"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_blanc.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois naturel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_bois_naturel.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois gris"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_gris.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois marron"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_marron.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_noir.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois perle"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_perle.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois taupe clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_taupe_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois taupe foncé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_BOIS_SK_taupe_fonce.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Argile"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_argile.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Aubergine  ME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_aubergine.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Blanc Antique"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_blc_antique.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Blanc Craie"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_blc_craie.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Blanc moucheté"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_blc_mouchete.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Carambole"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_carambole.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Coquille d'oeuf"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_coq_oeuf.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Gris perle"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_gris_perle.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Hêtre naturel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_hetre_naturel.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Horizon"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_horizon.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Kaki"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_kaki.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Mimosa"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_mimosa.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Poirier ME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_poirier.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Pomme verte"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_pomme_verte.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Rouge MEL"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_rouge.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Seringa"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_seringa.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Iris"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_t_iris.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Paprika"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_t_paprika.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Anis SK"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_anis.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Blanc translucide"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_blanc_translucide.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bois de rose"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_bois_de_rose.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cendre"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_cendre.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Chair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_chair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Chanvre"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_chanvre.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Châtaigne"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_chataigne.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Ciment"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ciment.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cire"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_cire.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Craie"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_craie.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Ecume"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ecume.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Ficelle"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ficelle.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Ivoire sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_ivoire.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Lin sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_lin.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Noisette"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_noisette.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Nuage"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_nuage.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Orage"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_orage.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Paille sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_paille.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Pierre sk"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_pierre.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Poivre"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_poivre.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Sable"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_SK_P_sable.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Olivier"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/olivier.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Or"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/OR.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Poirier GI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/poirier.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Pommier bois"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/pommier.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Pommier blanc"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/pommier_blanc.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Quadri"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/QUADRI.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Transparent"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/TRANSPARENT.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Tricolore Rouge / bleu / jaune"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/TRICOLORE_ROUGE_BLEU_JAUNE.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Wengué NG MI"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/wenge.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Wengé"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/wenge.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Slate"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/slate.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cherry"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cherry.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cognac"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cognac.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Colombo"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/colombo.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Havana"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/havana.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Mahogany"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/mahogany.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Orange"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_orange.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Palisander"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/palisander.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Orange bois"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/orange.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Orme"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/orme.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Walnut"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/walnut.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Chêne sheffield"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_sheffield.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Frêne blanchi"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_blanchi.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Frêne noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_noir.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Frêne teinte gris"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_teinte_gris.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Frêne teinte noir"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/frene_teinte_noir.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Pommier"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_pommier_h.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Noyer"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noyer.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Noir décor"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noir_decor.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Toscan soleil OME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_toscan_sol.jpg'); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
