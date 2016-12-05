@@ -1284,10 +1284,6 @@ p.variant_description.visible::before {
 }
 
 /* couleurs et matières particulières */
-
-#sidebar label.css_attribute_color[style="background-color:Autre couleur avec supplément"] { background-image: url('https://localhost:8443/asler/puces/quadri.png'); }
-
-
 #sidebar label.css_attribute_color[style="background-color:Calvados"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/calvados.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Cerisier"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/cerisier.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Chêne clair"] { background-image: url('https://asler.akretion.com//img_perso/Site/Bouton/chene_clair.jpg'); }
