@@ -271,7 +271,7 @@ footer .horaires {
 .oe_website_sale a[aria-controls="tab_5"]  { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #166BA2 !important; }
 .oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; max-width: 114px !important; }
+.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #FFBA00 !important; padding: 17px 6px 0px 6px !important; }
 .oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #8e44ad !important; }
 .oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #1691BE !important; }
@@ -280,6 +280,12 @@ footer .horaires {
 .oe_website_sale a[aria-controls="tab_14"] { border-bottom: 4px solid #444B54 !important; }
 .oe_website_sale a[aria-controls="tab_15"] { border-bottom: 4px solid #444B54 !important; }
 
+
+@media (min-width: 992px) {
+    .oe_website_sale a[aria-controls="tab_8"] {
+        max-width: 114px !important;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .oe_website_sale .nav.nav-tabs > li > a {
@@ -430,6 +436,7 @@ footer .horaires {
     top: 22px;
     left: 13px;
 }
+
 
 /*===================================================================
   06. Tabs - catégories de 3ème degré
@@ -1404,10 +1411,6 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Noyer"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noyer.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Noir décor"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noir_decor.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Toscan soleil OME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_toscan_sol.jpg'); }
-
-
-
-
 
 
 
