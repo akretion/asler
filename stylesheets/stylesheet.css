@@ -284,7 +284,7 @@ footer .horaires {
 @media (min-width: 992px) and (max-width: 1199px) {
     .oe_website_sale .nav.nav-tabs > li > a {
         font-size: 1.15rem;
-        max-width: 92px;
+        max-width: 80px;
     }
 }
 
@@ -1404,9 +1404,6 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Noyer"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noyer.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Noir décor"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noir_decor.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Toscan soleil OME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_toscan_sol.jpg'); }
-
-
-
 
 
 
