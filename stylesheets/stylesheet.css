@@ -981,7 +981,7 @@ span.input-group-btn > a.a-submit {
 #sidebar div.css_quantity.oe_website_spinner a {
     color: #8199A3;
     background: #F4F6F7;
-    padding: 8px 20px;
+    padding: 8px 8px;
 }
 .oe_cart input.js_quantity, /* Panier */
 #sidebar div.css_quantity.oe_website_spinner > input {
