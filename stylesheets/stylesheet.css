@@ -992,6 +992,17 @@ span.input-group-btn > a.a-submit {
     color: #7f8c8d;
 }
 
+/* Extension form control pour afficher des grands nombres (marche aussi pour le panier) */
+
+.oe_website_sale input.js_quantity {
+    min-width: 50px;
+}
+
+.oe_website_sale .form-control {
+    padding: 8px 0px;
+}
+
+
 /*===================================================================
   17. Ajouter au panier
 ================================================================== */
