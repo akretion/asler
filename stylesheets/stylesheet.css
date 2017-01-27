@@ -1065,6 +1065,10 @@ span.input-group-btn > a.a-submit {
     color: #999999;
 }
 
+#product_detail .carousel-caption {
+    display: none;
+}
+
 /*===================================================================
   19. Description et caractéristiques
 ================================================================== */
