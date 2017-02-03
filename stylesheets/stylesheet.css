@@ -140,6 +140,8 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
 .ftitle > .fa {
     color: #fafafa;
     font-size: 4rem;
+    margin: 10px 0 5px 0;
+
 }
 
 .ftitle > h4 {
@@ -165,7 +167,7 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
     text-decoration: underline;
 }
 
-.footer-wrapper ul, .footer-wrapper address, .footer-wrapper p  {
+.footer-wrapper ul, .footer-wrapper ol, .footer-wrapper address, .footer-wrapper p  {
     padding: 15px 0px 0px 0px;
 }
 
@@ -189,6 +191,7 @@ footer .container.mt16 {
     padding: 30px 20px 30px 20px;
     margin: 0 !important;
 }
+
 
 /*===================================================================
   04. Homepage
