@@ -7,27 +7,28 @@
 01. Style général
 02. Header
 03. Footer
-04. Tabs - catégories de 1er degré
-05. Tabs - catégories de 2ème degré
-06. Tabs - catégories de 3ème degré
-07. Products pager + Champs rechercher
-08. Tableaux produit
-09. Pagination + Breadcrumb
-10. Sidebar
-11. Options couleurs standarts
-12. Option transparent
-13. Options caractéristiques
-14. Message d'alerte si option non-disponible
-15. Affichage du prix
-16. Choix de quantité
-17. Ajouter au panier
-18. Photos produits / carousel
-19. Description et caractéristiques
-20. Panier - Règlement
+04. Homepage
+05. Tabs - catégories de 1er degré
+06. Tabs - catégories de 2ème degré
+07. Tabs - catégories de 3ème degré
+08. Products pager + Champs rechercher
+09. Tableaux produit
+10. Pagination + Breadcrumb
+11. Sidebar
+12. Options couleurs standarts
+13. Option transparent
+14. Options caractéristiques
+15. Message d'alerte si option non-disponible
+16. Affichage du prix
+17. Choix de quantité
+18. Ajouter au panier
+19. Photos produits / carousel
+20. Description et caractéristiques
+21. Panier - Règlement
 
 - À la fin volontairement, pour faciliter l'ajout de nouveaux boutons -
 
-21. Options matières (avec background-image)
+22. Options matières (avec background-image)
 
 -------------------------------------------------------------------*/
 
@@ -190,7 +191,7 @@ footer .container.mt16 {
 }
 
 /*===================================================================
-  0X. Homepage
+  04. Homepage
 ================================================================== */
 
 /* Top banner*/
@@ -241,11 +242,16 @@ section[style*="/website/image/ir.attachment/8140_db2bb36/datas"] {
 
 /* Client testimonial */
 
+.quotecarousel blockquote {
+    padding: 0;
+    border: none;
 
+
+}
 
 
 /*===================================================================
-  04. Tabs - catégories de 1er degré
+  05. Tabs - catégories de 1er degré
 ================================================================== */
 
 .oe_website_sale .nav-tabs {
@@ -415,7 +421,7 @@ section[style*="/website/image/ir.attachment/8140_db2bb36/datas"] {
 }
 
 /*===================================================================
-  05. Tabs - catégories de 2ème degré
+  06. Tabs - catégories de 2ème degré
 ================================================================== */
 
 /* Conteneur */
@@ -516,7 +522,7 @@ section[style*="/website/image/ir.attachment/8140_db2bb36/datas"] {
 
 
 /*===================================================================
-  06. Tabs - catégories de 3ème degré
+  07. Tabs - catégories de 3ème degré
 ================================================================== */
 
 .oe_website_sale .tab-pane > div > ul {
@@ -620,7 +626,7 @@ section[style*="/website/image/ir.attachment/8140_db2bb36/datas"] {
 }
 
 /*===================================================================
-  07. Products pager + Champs rechercher
+  08. Products pager + Champs rechercher
 ================================================================== */
 
 .tab-content + .products_pager {
@@ -644,7 +650,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  08. Tableaux produit
+  09. Tableaux produit
 ================================================================== */
 
 .oe_website_sale .tab-content {
@@ -708,7 +714,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  09. Pagination + Breadcrumb
+  10. Pagination + Breadcrumb
 ================================================================== */
 
 .pagination li > a {
@@ -752,7 +758,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  10. Sidebar
+  11. Sidebar
 ================================================================== */
 
 #product_detail > div.row:last-child {
@@ -812,7 +818,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  11. Options couleurs standarts
+  12. Options couleurs standarts
 ================================================================== */
 
 #sidebar label.css_not_available:hover {
@@ -879,7 +885,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  12. Option transparent
+  13. Option transparent
 ================================================================== */
 
 #sidebar label.css_attribute_color[style="background-color: transparent;"], /* Internet Explorer */
@@ -908,7 +914,7 @@ span.input-group-btn > a.a-submit {
 
 
 /*===================================================================
-  13. Options caractéristiques
+  14. Options caractéristiques
 ================================================================== */
 
 /* Li */
@@ -1010,7 +1016,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  14. Message d'alerte si option non-disponible
+  15. Message d'alerte si option non-disponible
 ================================================================== */
 
 #sidebar .css_not_available_msg.bg-danger {
@@ -1023,7 +1029,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  15. Affichage du prix
+  16. Affichage du prix
 ================================================================== */
 
 #sidebar h4.oe_price_h4 {
@@ -1037,7 +1043,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  16. Choix de quantité
+  17. Choix de quantité
 ================================================================== */
 
 .oe_cart span.input-group-addon, /* Panier */
@@ -1081,7 +1087,7 @@ span.input-group-btn > a.a-submit {
 
 
 /*===================================================================
-  17. Ajouter au panier
+  18. Ajouter au panier
 ================================================================== */
 
 .oe_cart a.btn-primary.pull-right,
@@ -1111,7 +1117,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  18. Photos produits / carousel
+  19. Photos produits / carousel
 ================================================================== */
 
 #product_detail #images {
@@ -1147,7 +1153,7 @@ span.input-group-btn > a.a-submit {
 }
 
 /*===================================================================
-  19. Description et caractéristiques
+  20. Description et caractéristiques
 ================================================================== */
 
 /* Style général */
@@ -1298,7 +1304,7 @@ p.variant_description.visible::before {
 }
 
 /*===================================================================
-  20. Panier - Règlement
+  21. Panier - Règlement
 ================================================================== */
 
 /* Tableau récapitulatif */
@@ -1382,7 +1388,7 @@ p.variant_description.visible::before {
 /*===================================================================
 - À la fin volontairement, pour faciliter l'ajout de nouveaux boutons -
 
-  21. Options matières (avec background-image)
+  22. Options matières (avec background-image)
 ================================================================== */
 
 /* règles de base background-image */
