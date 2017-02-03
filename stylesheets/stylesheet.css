@@ -97,9 +97,9 @@ li {
 }
 
 @media (min-width: 768px) {
-	.navbar-nav.navbar-right:last-child {
-	  margin-right: 0px;
-	}
+    .navbar-nav.navbar-right:last-child {
+      margin-right: 0px;
+    }
 }
 
 /* Petits écrans */
@@ -116,18 +116,17 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
     display: none;
 }
 
-/* Main styles */
+/* Footer-wrapper */
 
-footer {
-    display: block;
+.footer-wrapper {
+    width: 100%;
+    background: #607D8B;
     margin-top: 80px;
-    background: none;
 }
 
 /* Footer title */
 
 .footer-title {
-    background: #ecf0f1;
     border-top: 2px solid #a0a0a0;
     margin: 0;
 }
@@ -138,12 +137,12 @@ footer {
 }
 
 .ftitle > .fa {
+    color: #fafafa;
     font-size: 4rem;
-    color: #7f8d92;
 }
 
 .ftitle > h4 {
-    color: #7f8d92;
+    color: #fafafa;
     font-size: 1.9rem;
     font-weight: normal;
 }
@@ -154,19 +153,23 @@ footer {
     margin: 0;
 }
 
-footer a:hover {
+.footer-wrapper a {
+    color: #fafafa;
+}
+
+.footer-wrapper a:hover {
     color: #1691BE;
 }
 
-footer .fa {
+.footer-wrapper .fa {
     color: #7f8c8d;
 }
 
-footer ul, footer address, footer p  {
+.footer-wrapper ul, .footer-wrapper address, .footer-wrapper p  {
     padding: 15px 0px 0px 0px;
 }
 
-footer .horaires {
+.footer-wrapper .horaires {
     color: #7f8c8d;
 }
 
