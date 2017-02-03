@@ -189,6 +189,16 @@ footer .container.mt16 {
     margin: 0 !important;
 }
 
+/*===================================================================
+  04. Homepage
+================================================================== */
+
+section[style*="/website/image/ir.attachment/8139_a7e977f/datas"] {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /*===================================================================
   04. Tabs - catégories de 1er degré
