@@ -177,6 +177,16 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
     color: #fafafa;
 }
 
+/* Footer legal */
+
+footer .container.mt16 {
+    width: 100%;
+    background: #607d8b;
+    padding: 30px 20px 15px 20px;
+    margin: 0 !important;
+}
+
+
 /*===================================================================
   04. Tabs - catégories de 1er degré
 ================================================================== */
