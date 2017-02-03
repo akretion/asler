@@ -168,7 +168,7 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
 }
 
 .footer-wrapper ul, .footer-wrapper ol, .footer-wrapper address, .footer-wrapper p  {
-    padding: 15px 0px 0px 0px;
+    padding: 15px 0px 15px 0px;
 }
 
 .footer-wrapper ul, .footer-wrapper ol {
