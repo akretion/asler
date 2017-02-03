@@ -122,12 +122,12 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
     width: 100%;
     background: #607D8B;
     margin-top: 80px;
+    border-top: 2px solid #a0a0a0;
 }
 
 /* Footer title */
 
 .footer-title {
-    border-top: 2px solid #a0a0a0;
     margin: 0;
 }
 
