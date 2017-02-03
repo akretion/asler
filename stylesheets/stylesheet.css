@@ -165,6 +165,14 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
     padding: 15px 0px 0px 0px;
 }
 
+.footer-wrapper ul, .footer-wrapper ol {
+    margin: 0;
+}
+
+.footer-wrapper li {
+    color: #fafafa;
+}
+
 .footer-wrapper .horaires {
     color: #fafafa;
 }
