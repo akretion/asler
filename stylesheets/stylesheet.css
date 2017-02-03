@@ -150,7 +150,10 @@ footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
 /* Footer list */
 
 .footer-list {
+    padding: 30px 0 30px 0;
     margin: 0;
+    border-top: 1px solid #738d9a;
+    border-bottom: 1px solid #738d9a;
 }
 
 .footer-wrapper a {
