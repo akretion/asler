@@ -199,12 +199,17 @@ footer .container.mt16 {
 
 /* Top banner*/
 
-section[style*="/website/image/ir.attachment/7788_caf57b4/datas"],
-section[style*="/website/image/ir.attachment/8140_db2bb36/datas"] {
+section.mt16.oe_img_bg.mb128 {
+    background-image: url('https://asler.akretion.com/website/image/ir.attachment/8345_16ad55c/datas') !important;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     padding-bottom: 23%;
+    margin-bottom: 0 !important;
+}
+
+section.mt16.oe_img_bg.mb128 + section {
+    display: none;
 }
 
 /* Image banner */
