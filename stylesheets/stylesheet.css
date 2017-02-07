@@ -253,8 +253,14 @@ section.mt16.oe_img_bg.mb128 + section {
 .quotecarousel blockquote {
     padding: 0;
     border: none;
+}
 
+#myCarousel_1485453106266 {
+    height: 220px !important;
+}
 
+#myCarousel_1485453106266 h1 {
+    display: none;
 }
 
 
