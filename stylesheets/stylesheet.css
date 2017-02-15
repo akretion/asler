@@ -1530,6 +1530,10 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Noir décor"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/noir_decor.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Toscan soleil OME"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/N_MELA_DPGBDC_toscan_sol.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Tricolore Bleu foncé / Bleu clair / Vert clair"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/FI_Bleu-foncé_moyen_clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Anis / Orange"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_anis_orange'); }
+#sidebar label.css_attribute_color[style="background-color:Anis / Bleu"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_anis_bleu.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Bleu / Anis"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_bleu_anis.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Rouge / Anis"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/BICOLORE_ROUGE_anis'); }
 
 
 
