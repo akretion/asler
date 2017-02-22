@@ -728,37 +728,12 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Sales Ribbon */
-.oe_product .ribbon {
-  background: #e74c3c;
+.oe_product.oe_ribbon_nouveaute .ribbon-wrapper {
+    display: block;
 }
 
-.oe_product.oe_ribbon_nouveaute .ribbon-wrapper2 {
-  display: block;
-}
-.oe_product .ribbon-wrapper2 {
-  display: none;
-  width: 85px;
-  height: 88px;
-  z-index: 5;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.oe_product .ribbon {
-  font: bold 15px Sans-Serif;
-  color: white;
-  text-align: center;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  position: relative;
-  padding: 7px 0;
-  left: -5px;
-  top: 15px;
-  width: 120px;
-  cursor: default;
+.oe_product.oe_ribbon_nouveaute .ribbon {
+    background: #e74c3c;
 }
 
 
