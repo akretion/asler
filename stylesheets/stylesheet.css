@@ -728,6 +728,10 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Sales Ribbon */
+.oe_product.oe_ribbon_promo .ribbon-wrapper {
+    display: none;
+}
+
 .oe_product.oe_ribbon_promo     .ribbon { background: #e74c3c; }
 .oe_product.oe_ribbon_nouveaute .ribbon { background: #1691BE; }
 .oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
@@ -736,13 +740,15 @@ span.input-group-btn > a.a-submit {
 .oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
 .oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
 
-.oe_product.oe_ribbon_promo     .ribbon-wrapper1,
-.oe_product.oe_ribbon_nouveaute .ribbon-wrapper2,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper3,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper4,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper5,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper6,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper7 {
+.oe_product.oe_ribbon_promo .ribbon-wrapper { display: none; }
+
+.oe_product.oe_ribbon_promo     .ribbon-wrapper-1,
+.oe_product.oe_ribbon_nouveaute .ribbon-wrapper-2,
+.oe_product.oe_ribbon_TEST      .ribbon-wrapper-3,
+.oe_product.oe_ribbon_TEST      .ribbon-wrapper-4,
+.oe_product.oe_ribbon_TEST      .ribbon-wrapper-5,
+.oe_product.oe_ribbon_TEST      .ribbon-wrapper-6,
+.oe_product.oe_ribbon_TEST      .ribbon-wrapper-7 {
     display: block;
 }
 
