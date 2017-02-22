@@ -735,7 +735,6 @@ span.input-group-btn > a.a-submit {
 .oe_product.oe_ribbon_nouveaute .ribbon-wrapper2 {
   display: block;
 }
-
 .oe_product .ribbon-wrapper2 {
   display: none;
   width: 85px;
@@ -745,6 +744,21 @@ span.input-group-btn > a.a-submit {
   position: absolute;
   top: 0;
   right: 0;
+}
+.oe_product .ribbon {
+  font: bold 15px Sans-Serif;
+  color: white;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  cursor: default;
 }
 
 
