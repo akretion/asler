@@ -732,6 +732,21 @@ span.input-group-btn > a.a-submit {
   background: #e74c3c;
 }
 
+.oe_product.oe_ribbon_nouveaute .ribbon-wrapper2 {
+  display: block;
+}
+
+.oe_product .ribbon-wrapper2 {
+  display: none;
+  width: 85px;
+  height: 88px;
+  z-index: 5;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 
 /*===================================================================
   10. Pagination + Breadcrumb
