@@ -728,6 +728,17 @@ span.input-group-btn > a.a-submit {
 }
 
 /* Sales Ribbon */
+.oe_product .ribbon-wrapper {
+    width: 120px;
+    height: 120px;
+}
+
+.oe_product .ribbon {
+    left: -27px;
+    top: 32px;
+    width: 200px;
+}
+
 .oe_product.oe_ribbon_promo .ribbon-wrapper {
     display: none;
 }
