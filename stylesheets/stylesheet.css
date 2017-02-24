@@ -732,23 +732,23 @@ span.input-group-btn > a.a-submit {
     display: none;
 }
 
-.oe_product.oe_ribbon_promo     .ribbon { background: #e74c3c; }
-.oe_product.oe_ribbon_nouveaute .ribbon { background: #1691BE; }
-.oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
-.oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
-.oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
-.oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
-.oe_product.oe_ribbon_TEST      .ribbon { background: #cccccc; }
+.oe_product.oe_ribbon_nouveaute   .ribbon { background: #166BA2; }
+.oe_product.oe_ribbon_promo       .ribbon { background: #FFBA00; }
+.oe_product.oe_ribbon_coeur       .ribbon { background: #e74c3c; }
+.oe_product.oe_ribbon_solde       .ribbon { background: #25C289; }
+.oe_product.oe_ribbon_exclusivite .ribbon { background: #1691BE; }
+.oe_product.oe_ribbon_seller      .ribbon { background: #8e44ad; }
+.oe_product.oe_ribbon_asler       .ribbon { background: #444B54; }
 
 .oe_product.oe_ribbon_promo .ribbon-wrapper { display: none; }
 
-.oe_product.oe_ribbon_promo     .ribbon-wrapper-1,
-.oe_product.oe_ribbon_nouveaute .ribbon-wrapper-2,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper-3,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper-4,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper-5,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper-6,
-.oe_product.oe_ribbon_TEST      .ribbon-wrapper-7 {
+.oe_product.oe_ribbon_nouveaute   .ribbon-wrapper-1,
+.oe_product.oe_ribbon_promo       .ribbon-wrapper-2,
+.oe_product.oe_ribbon_coeur       .ribbon-wrapper-3,
+.oe_product.oe_ribbon_solde       .ribbon-wrapper-4,
+.oe_product.oe_ribbon_exclusivite .ribbon-wrapper-5,
+.oe_product.oe_ribbon_seller      .ribbon-wrapper-6,
+.oe_product.oe_ribbon_asler       .ribbon-wrapper-7 {
     display: block;
 }
 
