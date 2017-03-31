@@ -1095,8 +1095,11 @@ span.input-group-btn > a.a-submit {
 
 #sidebar .oe_price_h4 > .oe_price:after {
     content: 'HT';
-    font-size: 3rem;
-    font-weight: lighter;
+    font-size: 2.1rem;
+    margin-left: 4px;
+    position: relative;
+    top: -6px;
+    left: 0;
 }
 
 /*===================================================================
