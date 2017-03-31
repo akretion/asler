@@ -1143,7 +1143,7 @@ footer .container.mt16 {
 .tab-content + .products_pager {
     background: #ecf0f1;
     border-bottom: 2px solid #a0a0a0;
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 /* Formulaire de recherche */
@@ -1165,10 +1165,11 @@ span.input-group-btn > a.a-submit {
 ================================================================== */
 
 .oe_website_sale .tab-content {
+    min-height: 306px;
     background-image: url('https://www.asler.com/img_perso/Site/library.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 306px;
+    margin-bottom: 20px;
 }
 
 /* table */
