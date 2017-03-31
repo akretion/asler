@@ -190,6 +190,14 @@ footer {
     font-size: 1.7rem;
     border: 2px solid #ffffff;
     border-radius: 6px;
+    outline: none;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+
+.footer-wrapper .open-infos:hover {
+    background: #93a8b3;
 }
 
 .footer-wrapper .modal-content {
