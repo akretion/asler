@@ -1205,7 +1205,7 @@ span.input-group-btn > a.a-submit {
 }
 
 #products_grid .oe_product:hover {
-    border-color: #616161;
+    border-color: #607D8B;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
