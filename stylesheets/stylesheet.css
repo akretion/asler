@@ -114,7 +114,7 @@ li {
 ================================================================== */
 
 footer {
-    background: #ffffff;
+    background: #ffffff !important;
 }
 
 /* Footer-wrapper */
