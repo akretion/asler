@@ -1126,13 +1126,15 @@ span.input-group-btn > a.a-submit {
     color: #7f8c8d;
 }
 
-/* Extension form control pour afficher des grands nombres (marche aussi pour le panier) */
+/* Modification de l'input qui affiche la quantité (dans sidebar + panier) pour afficher des grands nombres */
 
-.oe_website_sale input.js_quantity {
+#sidebar input.js_quantity,
+#cart_products input.js_quantity {
     min-width: 50px;
 }
 
-.oe_website_sale .form-control {
+#sidebar .form-control,
+#cart_products .form-control {
     padding: 8px 0px;
 }
 
