@@ -113,6 +113,10 @@ li {
   03. Footer
 ================================================================== */
 
+.footer {
+    background: #ffffff;
+}
+
 /* Footer-wrapper */
 
 .footer-wrapper {
