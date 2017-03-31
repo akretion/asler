@@ -1143,7 +1143,7 @@ footer .container.mt16 {
 .tab-content + .products_pager {
     background: #ecf0f1;
     border-bottom: 2px solid #a0a0a0;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 /* Formulaire de recherche */
