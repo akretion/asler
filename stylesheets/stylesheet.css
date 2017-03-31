@@ -219,77 +219,549 @@ footer .container.mt16 {
     margin: 0 !important;
 }
 
-
 /*===================================================================
   04. Homepage
 ================================================================== */
 
-/* Top banner*/
+@charset "utf-8";
 
-section.mt16.oe_img_bg.mb128 {
-    background-image: url('https://asler.akretion.com/website/image/ir.attachment/8345_16ad55c/datas') !important;
+/* >> Style général
+-------------------------------------------*/
+
+/* Heading */
+
+.title-homepage {
+    display: inline-block !important;
+    color: #166BA2 !important;
+    font-size: 36px !important;
+    letter-spacing: 0.7px !important;
+    line-height: 1 !important;
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 100px 0 100px 0 !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.title-homepage::after {
+    content: '' !important;
+    width: 120px !important;
+    height: 2px !important;
+    background: #166BA2 !important;
+    position: absolute !important;
+    bottom: -35px !important;
+    left: calc(50% - 60px) !important;
+}
+
+/* Button */
+
+.btn-homepage {
+    display: inline-block;
+    color: #166BA2;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none;
+    margin: 0;
+}
+
+.btn-homepage::before {
+    content: '\f055';
+    font-family: FontAwesome;
+    padding-right: 4px;
+}
+
+.btn-homepage:hover {
+    color: #1691BE;
+}
+
+.btn-homepage:hover::after {
+    background: #1691BE;
+}
+
+/* >> Block top
+-------------------------------------------*/
+
+/* Text */
+
+.block-top-textwrapper {
+    background-image: url(https://asler.com/website/image/ir.attachment/11558_5f41bf2/datas);
+    background-size: cover;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 67px 0 127px 0;
+    margin: 0;
+}
+
+.block-top-textwrapper-text {
+    width: 520px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+@media (max-width: 580px) {
+    .block-top-textwrapper-text {
+        width: calc(100% - 60px);
+        margin: 0 30px 0 30px;
+    }
+}
+
+.block-top-textwrapper-text h1 {
+    color: #606060;
+    font-size: 2.6rem;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    padding: 45px 40px 25px 40px;
+    margin: 0;
+}
+
+.block-top-textwrapper-text hr {
+    width: 80px;
+    margin: 0 auto 0 auto;
+    border-top: 2px solid #c1c1c1;
+}
+
+.block-top-textwrapper-text p {
+    font-size: 1.7rem;
+    line-height: 2.4;
+    padding: 25px 30px 38px 30px;
+    margin: 0;
+}
+
+/* Multicolor border */
+
+.block-top-textwrapper-text-border {
+    height: 4px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.block-top-textwrapper-text-border > div {
+    width: 8.3333%;
+}
+
+.block-top-textwrapper-text-border > div:nth-child(0n+1)  { background: #166BA2; }
+.block-top-textwrapper-text-border > div:nth-child(0n+2)  { background: #1691BE; }
+.block-top-textwrapper-text-border > div:nth-child(0n+3)  { background: #e74c3c; }
+.block-top-textwrapper-text-border > div:nth-child(0n+4)  { background: #FFBA00; }
+.block-top-textwrapper-text-border > div:nth-child(0n+5)  { background: #25C289; }
+.block-top-textwrapper-text-border > div:nth-child(0n+6)  { background: #8e44ad; }
+.block-top-textwrapper-text-border > div:nth-child(0n+7)  { background: #166BA2; }
+.block-top-textwrapper-text-border > div:nth-child(0n+8)  { background: #e74c3c; }
+.block-top-textwrapper-text-border > div:nth-child(0n+9)  { background: #FFBA00; }
+.block-top-textwrapper-text-border > div:nth-child(0n+10) { background: #25C289; }
+.block-top-textwrapper-text-border > div:nth-child(0n+11) { background: #8e44ad; }
+.block-top-textwrapper-text-border > div:nth-child(0n+12) { background: #1691BE; }
+
+/* Product */
+
+.block-top-products {
+    background: #ecf0f1;
+    text-align: center;
+}
+
+.block-top-products-imagewrapper {
+    display: block;
+    width: 778px;
+    background: #ecf0f1;
+    padding: 0 5.5px 0 5.5px;
+    margin: 0 auto -17px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: -52px;
+    left: 0;
+}
+
+@media (max-width: 800px) {
+    .block-top-products-imagewrapper {
+        width: 100%;
+        padding: 0 2px 0 2px;
+    }
+}
+
+.block-top-products-imagewrapper > div {
+    display: inline-block;
+    width: 18%; /* Old browser */
+    width: calc(20% - 14px);
+    backgrund-color: #ffffff;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 23%;
-    margin-bottom: 0 !important;
+    padding-bottom: 17%;
+    margin: 11px 5.5px 11px 5.5px;
 }
 
-section.mt16.oe_img_bg.mb128 + section {
-    display: none;
+@media (max-width: 800px) {
+    .block-top-products-imagewrapper > div {
+        margin: 4px 2px 11px 2px;
+    }
 }
 
-/* Image banner */
-
-.carousel .carousel-content {
-    padding: 15px 30px 0px 30px !important;
+.block-top-products-imagewrapper > div:nth-child(0n+1) { background-image: url('https://asler.com/website/image/ir.attachment/11548_e36ec5c/datas'); }
+.block-top-products-imagewrapper > div:nth-child(0n+2) { background-image: url('https://asler.com/website/image/ir.attachment/11549_0098538/datas'); }
+.block-top-products-imagewrapper > div:nth-child(0n+3) { background-image: url('https://asler.com/website/image/ir.attachment/11551_5c7ead1/datas'); }
+.block-top-products-imagewrapper > div:nth-child(0n+4) { background-image: url('https://asler.com/website/image/ir.attachment/11552_ff08177/datas'); }
+.block-top-products-imagewrapper > div:nth-child(0n+5) { background-image: url('https://asler.com/website/image/ir.attachment/11553_5cd06d0/datas'); }
+.block-top-products .btn-homepage {
+    margin-bottom: 75px;
 }
 
-.carousel span {
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 1.3px;
+/* >> Block news
+-------------------------------------------*/
+
+.block-news {
+    background: #287fb8;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
 }
 
-.carousel .btn {
-    background: #607d8b;
+/* Heading */
+
+.block-news .title-homepage {
+    color: #ffffff !important;
+}
+
+.block-news .title-homepage::after {
+    background: #ffffff !important;
+}
+
+/* Banner */
+
+.block-news-wrapper {
+    margin: 0px 0 120px 0 !important;
+}
+
+.block-news-banner {
+    height: 190px !important;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #369ad0 !important;
+    color: #ffffff !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.block-news-banner::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid #075577;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 100px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+
+.block-news-banner::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid #075577;
+    border-right: 100px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+}
+
+.block-news-banner-item {
+    color: #ffffff !important;
+    font-size: 23px !important;
+    text-align: center !important;
+    margin: auto !important;
+}
+
+@media (max-width: 767px) {
+    .block-news-banner-item {
+        font-size: 16px !important;
+    }
+}
+
+/* Banner left side */
+
+.block-news-banner-left {
+    width: 130px !important;
+    background: #166ba2 !important;
+    position: absolute !important;
+    top: 40px !important;
+    bottom: -40px !important;
+    left: -30px !important;
+    z-index: -1 !important;
+}
+
+.block-news-banner-left::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 0px solid transparent;
+    border-right: 73px solid #166ba2;
+    border-bottom: 95px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -73px;
+}
+
+.block-news-banner-left::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 95px solid #166ba2;
+    border-left: 73px solid transparent;
+    position: absolute;
+    top: 95px;
+    left: -73px;
+}
+
+/* Banner right side */
+
+.block-news-banner-right {
+    width: 130px !important;
+    background: #166ba2 !important;
+    position: absolute !important;
+    top: 40px !important;
+    bottom: -40px !important;
+    right: -30px !important;
+    z-index: -1 !important;
+}
+
+.block-news-banner-right::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 95px solid #166ba2;
+    border-right: 73px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -73px;
+}
+
+.block-news-banner-right::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 0px solid black;
+    border-right: 73px solid transparent;
+    border-bottom: 95px solid #166ba2;
+    border-left: 0px solid transparent;
+    position: absolute;
+    top: 95px;
+    right: -73px;
+}
+
+/* To Shop Button */
+
+.block-link-for-news {
+    background: #287fb8;
+    text-align: center;
+}
+
+.block-link-for-news .btn-homepage {
     color: #ffffff;
+    margin-bottom: 75px;
+}
+
+.block-link-for-news .btn-homepage::after {
+    background: #ffffff;
+}
+
+/* >> Block featured
+-------------------------------------------*/
+
+.block-featured {
+    background: #ecf0f1;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+/* Special columns style */
+
+.block-featured > .container > .row > div[class*="col"] {
+    background: #ffffff;
+}
+
+.block-featured > .container > .row > div[class*="col"] > img {
+    display: block;
+    padding: 15px 0;
+    margin: auto;
+    border-radius: 0 !important;
+}
+
+.block-featured > .container > .row > div[class*="col"] > h2 {
+    font-size: 3rem;
+    padding: 10px 0 5px 0;
+}
+
+.block-featured > .container > .row > div[class*="col"] > p {
+    color: #606060;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .block-featured > .container > .row {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+    .block-featured > .container > .row > div[class*="col"] {
+        width: calc(33.33333333% - 20px);
+        padding-bottom: 80px;
+        margin: 0 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .block-featured > .container > .row > div[class*="col"] > img {
+        width: auto;
+        height: 280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .block-featured > .container > .row > div[class*="col"] > img {
+        height: 199px;
+    }
+    .block-featured > .container > .row > div[class*="col"] > h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .block-featured > .container > .row > div[class*="col"] > p {
+        margin: 0;
+    }
+}
+
+/* Button "Découvrir" */
+
+.block-featured .btn-homepage {
+    margin: 30px 0 50px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .block-featured .btn-homepage {
+        margin: 0 0 35px 0;
+        position: absolute;
+        top: auto;
+        bottom: 0px;
+        left: calc(50% - 50px);
+    }
+}
+
+/* >> Block testimonial
+-------------------------------------------*/
+
+.block-testimonial {
+    text-align: center;
+}
+
+.block-testimonial#myCarousel_1485453106266 {
+    height: 500px !important;
+}
+
+.block-testimonial .carousel-indicators {
+    bottom: 60px;
+}
+
+/* Text */
+
+.block-testimonial-text {
+    color: #166ba2;
+    font-size: 16px;
+    margin: -32px 0 75px 0;
+}
+
+/* >> Block catalogue
+-------------------------------------------*/
+
+.block-catalogue {
+    background: #287fb8;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.block-catalogue .title-homepage {
+    color: #ffffff !important;
+}
+
+.block-catalogue .title-homepage::after {
+    background: #ffffff !important;
+}
+
+/* Imagelink */
+
+.block-catalogue-imagelink {
+    display: block;
+    width: 300px;
+    height: 400px;
+    color: #ffffff !important;
+    background-image: url('https://asler.com/website/image/ir.attachment/11661_ba37b38/datas');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 18px;
-    text-shadow: none;
-    line-height: 1.33;
-    padding: 14px 16px;
-    margin: 20px 0px 33px 0px;
-    border: none;
-    border-bottom: 3px solid #3f525a;
-    border-radius: 6px;
-    position: relative;
-    top: 0px;
-    left: 0px;
+    padding: 400px 0 0 0;
+    margin: 0 auto 0 auto;
 }
 
-.carousel .btn:hover {
-    margin-bottom: 36px;
-    border-bottom: 0px;
-    position: relative;
-    top: 3px;
-    left: 0px;
+.block-catalogue-imagelink::before {
+    content: '\f055';
+    font-family: FontAwesome;
+    padding-right: 4px;
 }
 
-/* Client testimonial */
+/* >> Block catalogue
+-------------------------------------------*/
 
-.quotecarousel blockquote {
-    padding: 0;
-    border: none;
+.block-realisations {
+    text-align: center;
 }
 
-#myCarousel_1485453106266 {
-    height: 220px !important;
+/* Carousel inner */
+
+.block-realisations .carousel-inner {
+    display: block;
+    width: 1150px;
+    height: 350px;
+    margin: 0 auto 0 auto;
 }
 
-#myCarousel_1485453106266 h1 {
+/* Carousel indicators */
+
+.block-realisations .carousel-indicators {
     display: none;
 }
-
 
 /*===================================================================
   05. Tabs - catégories de 1er degré
