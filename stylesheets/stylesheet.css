@@ -1340,15 +1340,15 @@ span.input-group-btn > a.a-submit {
 
 #variant_descriptions {
     position: absolute;
-    bottom: -50px;
+    bottom: -57px;
     left: 0;
     z-index: 1;
 }
 
 p.variant_description.visible {
     background: #f7f9f9;
-    color: #a0a0a0;
-    font-size: 1.5rem;
+    color: #848484;
+    font-size: 1.8rem;
     word-break: break-all;
     word-break: break-word;
     border-radius: 13px;
