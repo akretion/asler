@@ -1083,12 +1083,18 @@ span.input-group-btn > a.a-submit {
   16. Affichage du prix
 ================================================================== */
 
-#sidebar h4.oe_price_h4 {
+#sidebar .oe_price_h4 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#sidebar h4.oe_price_h4 > b.oe_price {
+#sidebar .oe_price_h4 > .oe_price {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+#sidebar .oe_price_h4 > .oe_price:after {
+    content: 'HT';
     font-size: 3rem;
     font-weight: lighter;
 }
