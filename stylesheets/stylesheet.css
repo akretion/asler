@@ -113,10 +113,6 @@ li {
   03. Footer
 ================================================================== */
 
-footer .hidden-print { /* À ENLEVER DANS LE CODE VOIR AVEC RAPHAËL */
-    display: none;
-}
-
 /* Footer-wrapper */
 
 .footer-wrapper {
