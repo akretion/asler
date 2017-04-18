@@ -410,21 +410,13 @@ footer .container.mt16 {
     }
 }
 
-/* To Shop Button */
-
-.block-link-for-news {
+.block-news-link-wrapper {
     text-align: center;
 }
 
-.block-link-for-news .btn-homepage {
-    color: #ffffff;
+.block-news-link-wrapper .btn-homepage {
     margin-bottom: 75px;
 }
-
-.block-link-for-news .btn-homepage::after {
-    background: #ffffff;
-}
-
 
 /*
 .block-top-textwrapper-text-border > div:nth-child(0n+1)  { background: #166BA2; }
