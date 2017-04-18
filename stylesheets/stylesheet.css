@@ -375,11 +375,11 @@ footer .container.mt16 {
 -------------------------------------------*/
 
 .block-news {
-    background-image: url('/website/image/ir.attachment/13150_d64ed31/datas');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
+    background-image: url('/website/image/ir.attachment/13150_d64ed31/datas') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    text-align: center !important;
 }
 
 /* Banner */
@@ -389,20 +389,21 @@ footer .container.mt16 {
 }
 
 .block-news-banner {
-    height: 190px !important;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    height: 240px !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
     background: rgba(255, 255, 255, 0.8) !important;
     color: #166BA2 !important;
+    padding: 15px 0 15px 0 !important;
 }
 
 .block-news-banner-item {
     color: #166BA2 !important;
-    font-size: 23px !important;
+    font-size: 24px !important;
     text-align: center !important;
     margin: auto !important;
 }
