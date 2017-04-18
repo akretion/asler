@@ -351,15 +351,15 @@ footer .container.mt16 {
 .block-fiveproducts-image.product4 { background-image: url('https://www.asler.com/website/image/ir.attachment/12252_7254601/datas'); }
 .block-fiveproducts-image.product5 { background-image: url('https://www.asler.com/website/image/ir.attachment/11553_5cd06d0/datas'); }
 
-.block-fiveproducts-product-title {
+.block-fiveproducts-title {
     color: #ffffff;
 }
 
-.block-fiveproducts-product-title.title1 { background: #369ad0; }
-.block-fiveproducts-product-title.title2 { background: #e74c3c; }
-.block-fiveproducts-product-title.title3 { background: #ffba00; }
-.block-fiveproducts-product-title.title4 { background: #25c289; }
-.block-fiveproducts-product-title.title5 { background: #8e44ad; }
+.block-fiveproducts-title.title1 { background: #369ad0; }
+.block-fiveproducts-title.title2 { background: #e74c3c; }
+.block-fiveproducts-title.title3 { background: #ffba00; }
+.block-fiveproducts-title.title4 { background: #25c289; }
+.block-fiveproducts-title.title5 { background: #8e44ad; }
 
 /* >> Block news
 -------------------------------------------*/
