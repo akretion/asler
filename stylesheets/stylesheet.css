@@ -330,6 +330,7 @@ footer .container.mt16 {
 
 .block-fiveproducts {
     background: #ecf0f1;
+    padding-top: 70px;
 }
 
 .block-fiveproducts-product-wrapper {
@@ -338,9 +339,10 @@ footer .container.mt16 {
 
 .block-fiveproducts-image {
     background-color: #ffffff;
-    background-size: contain;
+    background-size: 79%;
     background-position: center center;
     background-repeat: no-repeat;
+    padding-bottom: 168px;
 }
 
 .block-fiveproducts-image.product1 { background-image: url('https://www.asler.com/website/image/ir.attachment/11548_e36ec5c/datas'); }
