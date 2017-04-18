@@ -289,6 +289,7 @@ footer .container.mt16 {
 .block-top {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 700px;
     background-image: url('https://www.asler.com/website/image/ir.attachment/13095_1b6a465/datas');
     background-size: cover;
