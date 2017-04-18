@@ -375,7 +375,10 @@ footer .container.mt16 {
 -------------------------------------------*/
 
 .block-news {
-    background: #cccccc;
+    background-image: url('/website/image/ir.attachment/13150_d64ed31/datas');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
