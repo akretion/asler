@@ -299,9 +299,9 @@ footer .container.mt16 {
 }
 
 .block-top-banner {
-    width: 300px;
+    width: 480px;
     height: auto;
-    margin: 0;
+    margin: 6% auto 0 auto;
 }
 
 
