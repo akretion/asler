@@ -353,6 +353,7 @@ footer .container.mt16 {
 
 .block-fiveproducts-title {
     color: #ffffff;
+    padding: 6px;
 }
 
 .block-fiveproducts-title.title1 { background: #369ad0; }
