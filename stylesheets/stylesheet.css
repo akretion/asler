@@ -342,7 +342,7 @@ footer .container.mt16 {
     background-size: 79%;
     background-position: center center;
     background-repeat: no-repeat;
-    padding-bottom: 168px;
+    padding-bottom: 100%;
 }
 
 .block-fiveproducts-image.product1 { background-image: url('https://www.asler.com/website/image/ir.attachment/11548_e36ec5c/datas'); }
