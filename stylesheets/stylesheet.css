@@ -307,10 +307,22 @@ footer .container.mt16 {
     margin: 6% auto 0 auto;
 }
 
+@media (max-width: 767px) {
+    .block-top-banner {
+        width: 90%;
+    }
+}
+
 .block-top-text {
     width: 90%;
     height: auto;
     margin: 24% auto 2.1% auto;
+}
+
+@media (max-width: 767px) {
+    .block-top-text {
+        display: none;
+    }
 }
 
 
