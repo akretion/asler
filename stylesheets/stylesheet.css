@@ -299,9 +299,15 @@ footer .container.mt16 {
 }
 
 .block-top-banner {
-    width: 480px;
+    width: 490px;
     height: auto;
     margin: 6% auto 0 auto;
+}
+
+.block-top-text {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 2% auto;
 }
 
 
