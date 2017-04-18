@@ -333,8 +333,11 @@ footer .container.mt16 {
     padding-top: 70px;
 }
 
-.block-fiveproducts-product-wrapper {
-    
+@media (min-width: 768px) {
+    .block-fiveproducts-product-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 .block-fiveproducts-image {
