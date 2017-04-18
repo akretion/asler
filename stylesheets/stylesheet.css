@@ -316,7 +316,13 @@ footer .container.mt16 {
 .block-top-text {
     width: 90%;
     height: auto;
-    margin: 295px auto 34px auto;;
+    margin: 295px auto 34px auto;
+}
+
+@media (min-width: 1300px) {
+    .block-top-text {
+        margin: 350px auto 34px auto;
+    }
 }
 
 @media (max-width: 767px) {
