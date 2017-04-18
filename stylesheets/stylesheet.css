@@ -321,7 +321,7 @@ footer .container.mt16 {
 
 @media (max-width: 767px) {
     .block-top-text {
-        display: none;
+        opacity: 0;
     }
 }
 
