@@ -396,7 +396,7 @@ footer .container.mt16 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #ffffff !important;
+    background: rgba(255, 255, 255, 0.8) !important;
     color: #166BA2 !important;
 }
 
