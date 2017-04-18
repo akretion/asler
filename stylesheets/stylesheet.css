@@ -336,8 +336,11 @@ footer .container.mt16 {
     
 }
 
-.block-fiveproducts-product-image {
-    background: #ffffff;
+.block-fiveproducts-image {
+    background-color: #ffffff;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .block-fiveproducts-image.product1 { background-image: url('https://www.asler.com/website/image/ir.attachment/11548_e36ec5c/datas'); }
@@ -346,9 +349,15 @@ footer .container.mt16 {
 .block-fiveproducts-image.product4 { background-image: url('https://www.asler.com/website/image/ir.attachment/12252_7254601/datas'); }
 .block-fiveproducts-image.product5 { background-image: url('https://www.asler.com/website/image/ir.attachment/11553_5cd06d0/datas'); }
 
-.block-fiveproducts-product-text {
+.block-fiveproducts-product-title {
     
 }
+
+.block-fiveproducts-product-title.title1 {  }
+.block-fiveproducts-product-title.title2 {  }
+.block-fiveproducts-product-title.title3 {  }
+.block-fiveproducts-product-title.title4 {  }
+.block-fiveproducts-product-title.title5 {  }
 
 
 
