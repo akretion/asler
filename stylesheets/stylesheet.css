@@ -382,7 +382,7 @@ footer .container.mt16 {
 /* Banner */
 
 .block-news-wrapper {
-    margin: 0px 0 120px 0 !important;
+    margin: 0 !important;
 }
 
 .block-news-banner {
@@ -415,6 +415,7 @@ footer .container.mt16 {
 }
 
 .block-news-link-wrapper .btn-homepage {
+    margin-top: 70px;
     margin-bottom: 75px;
 }
 
