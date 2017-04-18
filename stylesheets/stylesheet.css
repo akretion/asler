@@ -379,16 +379,6 @@ footer .container.mt16 {
     text-align: center;
 }
 
-/* Heading */
-
-.block-news .title-homepage {
-    color: #ffffff !important;
-}
-
-.block-news .title-homepage::after {
-    background: #ffffff !important;
-}
-
 /* Banner */
 
 .block-news-wrapper {
@@ -403,12 +393,12 @@ footer .container.mt16 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #369ad0 !important;
-    color: #ffffff !important;
+    background: #ffffff !important;
+    color: #166BA2 !important;
 }
 
 .block-news-banner-item {
-    color: #ffffff !important;
+    color: #166BA2 !important;
     font-size: 23px !important;
     text-align: center !important;
     margin: auto !important;
@@ -423,7 +413,6 @@ footer .container.mt16 {
 /* To Shop Button */
 
 .block-link-for-news {
-    background: #287fb8;
     text-align: center;
 }
 
