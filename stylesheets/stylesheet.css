@@ -304,7 +304,7 @@ footer .container.mt16 {
 .block-top-banner {
     width: 500px;
     height: auto;
-    margin: 6% auto 0 auto;
+    margin: 80px auto 0 auto;
 }
 
 @media (max-width: 767px) {
@@ -316,7 +316,7 @@ footer .container.mt16 {
 .block-top-text {
     width: 90%;
     height: auto;
-    margin: 24% auto 2.1% auto;
+    margin: 295px auto 34px auto;;
 }
 
 @media (max-width: 767px) {
