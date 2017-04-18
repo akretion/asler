@@ -298,6 +298,12 @@ footer .container.mt16 {
     margin: 0;
 }
 
+.block-top-banner {
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+
 
 /* >> Block fiveproducts
 -------------------------------------------*/
