@@ -365,6 +365,10 @@ footer .container.mt16 {
 .block-fiveproducts-title.title4 { background: #25c289; }
 .block-fiveproducts-title.title5 { background: #8e44ad; }
 
+.block-fiveproducts-link-to-shop-wrapper {
+    text-align: center;
+}
+
 /* >> Block news
 -------------------------------------------*/
 
