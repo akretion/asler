@@ -288,67 +288,20 @@ footer .container.mt16 {
 
 /* Text */
 
-.block-top-textwrapper {
+.block-top {
+    height: 550px;
     background-image: url(https://www.asler.com/website/image/ir.attachment/11558_5f41bf2/datas);
     background-size: cover;
-    background-position: bottom left;
+    background-position: bottom center;
     background-repeat: no-repeat;
-    padding: 67px 0 127px 0;
+    padding: 0;
     margin: 0;
+    
 }
 
-.block-top-textwrapper-text {
-    width: 520px;
-    background: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    margin: 0 auto 0 auto;
-}
 
-@media (max-width: 580px) {
-    .block-top-textwrapper-text {
-        width: calc(100% - 60px);
-        margin: 0 30px 0 30px;
-    }
-}
-
-.block-top-textwrapper-text h1 {
-    color: #606060;
-    font-size: 2.6rem;
-    letter-spacing: 0.8px;
-    line-height: 1.8;
-    text-transform: uppercase;
-    padding: 45px 40px 25px 40px;
-    margin: 0;
-}
-
-.block-top-textwrapper-text hr {
-    width: 80px;
-    margin: 0 auto 0 auto;
-    border-top: 2px solid #c1c1c1;
-}
-
-.block-top-textwrapper-text p {
-    font-size: 1.7rem;
-    line-height: 2.4;
-    padding: 25px 30px 38px 30px;
-    margin: 0;
-}
-
-/* Multicolor border */
-
-.block-top-textwrapper-text-border {
-    height: 4px;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-}
-
-.block-top-textwrapper-text-border > div {
-    width: 8.3333%;
-}
+/* >> Block fiveproducts
+-------------------------------------------*/
 
 .block-top-textwrapper-text-border > div:nth-child(0n+1)  { background: #166BA2; }
 .block-top-textwrapper-text-border > div:nth-child(0n+2)  { background: #1691BE; }
@@ -363,50 +316,6 @@ footer .container.mt16 {
 .block-top-textwrapper-text-border > div:nth-child(0n+11) { background: #8e44ad; }
 .block-top-textwrapper-text-border > div:nth-child(0n+12) { background: #1691BE; }
 
-/* Product */
-
-.block-top-products {
-    background: #ecf0f1;
-    text-align: center;
-}
-
-.block-top-products-imagewrapper {
-    display: block;
-    width: 782px;
-    background: #ecf0f1;
-    padding: 0 5.5px 0 5.5px;
-    margin: 0 auto -17px auto;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-    top: -52px;
-    left: 0;
-}
-
-@media (max-width: 800px) {
-    .block-top-products-imagewrapper {
-        width: 100%;
-        padding: 0 2px 0 2px;
-    }
-}
-
-.block-top-products-imagewrapper > div {
-    display: inline-block;
-    width: 18%; /* Old browser */
-    width: calc(20% - 14px);
-    background-color: #ffffff;
-    background-size: 85%;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 17%;
-    margin: 11px 5.5px 11px 5.5px;
-}
-
-@media (max-width: 800px) {
-    .block-top-products-imagewrapper > div {
-        margin: 4px 2px 11px 2px;
-    }
-}
 
 .block-top-products-imagewrapper > div:nth-child(0n+1) { background-image: url('https://www.asler.com/website/image/ir.attachment/11548_e36ec5c/datas'); }
 .block-top-products-imagewrapper > div:nth-child(0n+2) { background-image: url('https://www.asler.com/website/image/ir.attachment/11549_0098538/datas'); }
@@ -416,6 +325,7 @@ footer .container.mt16 {
 .block-top-products .btn-homepage {
     margin-bottom: 75px;
 }
+
 
 /* >> Block news
 -------------------------------------------*/
