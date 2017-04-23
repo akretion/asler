@@ -298,11 +298,17 @@ footer .container.mt16 {
     left: 0;
 }
 
+@media (max-width: 767px) {
+    .block-top {
+        padding: 0 0 150% 0;
+    }
+}
+
 .block-top-banner {
     width: 500px;
     height: auto;
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: calc(50% - 250px);
 }
 
