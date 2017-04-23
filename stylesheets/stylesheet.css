@@ -287,47 +287,43 @@ footer .container.mt16 {
 -------------------------------------------*/
 
 .block-top {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: space-between;
-    justify-content: space-between;
     background-image: url('https://www.asler.com/website/image/ir.attachment/13095_1b6a465/datas');
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-    padding: 0;
+    padding: 0 0 55% 0;
     margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .block-top-banner {
     width: 500px;
     height: auto;
-    margin: 80px auto 0 auto;
+    position: absolute;
+    top: 10%;
+    left: calc(50% - 250px);
 }
 
 @media (max-width: 767px) {
     .block-top-banner {
         width: 90%;
+        left: 5%;
     }
 }
 
 .block-top-text {
     width: 90%;
     height: auto;
-    margin: 295px auto 34px auto;
-}
-
-@media (min-width: 1300px) {
-    .block-top-text {
-        margin: 350px auto 34px auto;
-    }
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
 }
 
 @media (max-width: 767px) {
     .block-top-text {
-        opacity: 0;
+        display: none;
     }
 }
 
