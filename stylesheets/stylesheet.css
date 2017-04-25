@@ -123,7 +123,31 @@ footer {
     width: 100%;
     background: #607D8B;
     margin-top: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
+
+/* Footer multicolor border */
+
+.footer-multicolor-border {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-multicolor-border > div {
+    width: 20%;  
+    height: 3px;
+    float: left;
+}
+
+.footer-multicolor-border > div:nth-child(0n+1) { background: #ccc; }
+.footer-multicolor-border > div:nth-child(0n+2) { background: #ccc; }
+.footer-multicolor-border > div:nth-child(0n+3) { background: #ccc; }
+.footer-multicolor-border > div:nth-child(0n+4) { background: #ccc; }
+.footer-multicolor-border > div:nth-child(0n+5) { background: #ccc; }
 
 /* Footer title */
 
@@ -233,6 +257,10 @@ footer {
 .footer-wrapper .modal-content {
     padding: 15px 30px 5px 30px;
     font-size: 1.6rem;
+}
+
+.footer-wrapper .modal-content p {
+    padding: 15px 0 15px 0;
 }
 
 /* Footer legal */
@@ -449,23 +477,6 @@ footer .container.mt16 {
     margin-top: 70px;
     margin-bottom: 90px;
 }
-
-/*
-.block-top-textwrapper-text-border > div:nth-child(0n+1)  { background: #166BA2; }
-.block-top-textwrapper-text-border > div:nth-child(0n+2)  { background: #1691BE; }
-.block-top-textwrapper-text-border > div:nth-child(0n+3)  { background: #e74c3c; }
-.block-top-textwrapper-text-border > div:nth-child(0n+4)  { background: #FFBA00; }
-.block-top-textwrapper-text-border > div:nth-child(0n+5)  { background: #25C289; }
-.block-top-textwrapper-text-border > div:nth-child(0n+6)  { background: #8e44ad; }
-.block-top-textwrapper-text-border > div:nth-child(0n+7)  { background: #166BA2; }
-.block-top-textwrapper-text-border > div:nth-child(0n+8)  { background: #e74c3c; }
-.block-top-textwrapper-text-border > div:nth-child(0n+9)  { background: #FFBA00; }
-.block-top-textwrapper-text-border > div:nth-child(0n+10) { background: #25C289; }
-.block-top-textwrapper-text-border > div:nth-child(0n+11) { background: #8e44ad; }
-.block-top-textwrapper-text-border > div:nth-child(0n+12) { background: #1691BE; }
-
-*/
-
 
 /* >> Block featured
 -------------------------------------------*/
