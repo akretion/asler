@@ -143,11 +143,11 @@ footer {
     float: left;
 }
 
-.footer-multicolor-border > div:nth-child(0n+1) { background: #ccc; }
-.footer-multicolor-border > div:nth-child(0n+2) { background: #ccc; }
-.footer-multicolor-border > div:nth-child(0n+3) { background: #ccc; }
-.footer-multicolor-border > div:nth-child(0n+4) { background: #ccc; }
-.footer-multicolor-border > div:nth-child(0n+5) { background: #ccc; }
+.footer-multicolor-border > div:nth-child(0n+1) { background: #369ad0; }
+.footer-multicolor-border > div:nth-child(0n+2) { background: #e74c3c; }
+.footer-multicolor-border > div:nth-child(0n+3) { background: #ffba00; }
+.footer-multicolor-border > div:nth-child(0n+4) { background: #25c289; }
+.footer-multicolor-border > div:nth-child(0n+5) { background: #8e44ad; }
 
 /* Footer title */
 
