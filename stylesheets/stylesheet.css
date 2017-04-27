@@ -666,6 +666,16 @@ footer .container.mt16 {
     background-repeat: no-repeat;
 }
 
+/* Carousel indicators */
+
+.block-realisations .carousel .carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+.block-realisations .carousel .carousel-indicators li {
+    border: 1px solid #ffffff;
+}
+
 
 /*===================================================================
   05. Tabs - catégories de 1er degré
