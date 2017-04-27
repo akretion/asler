@@ -673,6 +673,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     background-repeat: no-repeat;
 }
 
+.block-realisations .carousel-inner .item.oe_dark {
+    background-image: url('https://www.asler.com/website/image/ir.attachment/13804_a2fc9ac/datas');
+}
+
 /* Don't display blockquote */
 
 .block-realisations .carousel-inner .item blockquote {
