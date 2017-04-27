@@ -674,11 +674,11 @@ footer .container.mt16 {
 
 /* Carousel indicators */
 
-.block-realisations .carousel .carousel-indicators .active {
+.block-realisations .carousel-indicators .active {
     background-color: #ffffff !important;
 }
 
-.block-realisations .carousel .carousel-indicators li {
+.block-realisations .carousel-indicators li {
     border: 1px solid #ffffff !important;
 }
 
