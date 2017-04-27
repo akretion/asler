@@ -653,7 +653,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 -------------------------------------------*/
 
 .block-realisations {
-    /*background-image: none !important;*/
+    background-size: 0px; /* Hack pour rendre plus lisible l'ajout de nouvelles diapos */
     text-align: center;
 }
 
