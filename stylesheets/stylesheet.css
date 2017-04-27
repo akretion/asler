@@ -667,10 +667,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 }
 
 .block-realisations .carousel-inner .item {
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 .block-realisations .carousel-inner > div:not(.oe_img_bg) {
