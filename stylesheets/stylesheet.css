@@ -675,6 +675,9 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 
 .block-realisations .carousel-inner > div:not(.oe_img_bg) {
     background: url('https://www.asler.com/website/image/ir.attachment/13815_5a0ab5b/datas') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 /* Don't display blockquote */
