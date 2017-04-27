@@ -647,6 +647,7 @@ footer .container.mt16 {
 -------------------------------------------*/
 
 .block-realisations {
+    background-image: none !important;
     text-align: center;
 }
 
