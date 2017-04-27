@@ -666,6 +666,12 @@ footer .container.mt16 {
     background-repeat: no-repeat;
 }
 
+/* Don't display blockquote */
+
+.block-realisations .carousel-inner .item blockquote {
+    display: none;
+}
+
 /* Carousel indicators */
 
 .block-realisations .carousel .carousel-indicators .active {
