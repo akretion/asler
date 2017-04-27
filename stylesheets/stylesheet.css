@@ -477,9 +477,13 @@ footer .container.mt16 {
     text-align: center;
 }
 
-.block-news-link-wrapper .btn-homepage {
+.block-news-link-wrapper .btn-facebook {
     margin-top: 70px;
     margin-bottom: 90px;
+}
+
+.block-news-link-wrapper .btn-facebook::before {
+    content: '\f082';
 }
 
 /* >> Block featured
