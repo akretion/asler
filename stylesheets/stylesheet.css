@@ -451,7 +451,11 @@ footer .container.mt16 {
     -webkit-flex-direction: column !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
-    background: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    background-image: url('https://www.asler.com/website/image/ir.attachment/13774_c2d6740/datas') !important;
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
     color: #166BA2 !important;
     padding: 15px 0 15px 0 !important;
 }
