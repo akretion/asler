@@ -332,11 +332,9 @@ footer .container.mt16 {
 
 /* Prevent .oe_handles displaying */
 
-/*
 html[data-view-xmlid="website.homepage"] .oe_handles {
     display: none;
 }
-*/
 
 /* >> Block top
 -------------------------------------------*/
