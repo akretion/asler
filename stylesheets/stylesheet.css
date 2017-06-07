@@ -2081,6 +2081,11 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Mainau Birch NW H1733"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Mainau.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Grey beige Zebrano H3005"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/GBZ3005.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Grey beige ZebranoH3005 horizontal"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/GBZH3005.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cliché à droite"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/cliche-a-droite.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cliché à gauche"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/cliche-a-gauche.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cliché en bas"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/cliche-en-bas.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Cliché en haut"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/cliche-en-haut.jpg'); }
+
 
 
 
