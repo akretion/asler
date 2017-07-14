@@ -374,21 +374,24 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 }
 
 .block-top-text {
-    width: 90%;
+    width: 60%;
     height: auto;
     position: absolute;
     left: 5%;
     bottom: 4%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1400px) {
+    .block-top-text {
+        width: 58%;
+    }
+}
+
+@media (max-width: 991px) {
     .block-top-text {
         display: none;
     }
 }
-
-
-
 
 .block-top-laptop {
     display: block;
@@ -396,18 +399,28 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     position: absolute;
     bottom: -1px;
     right: 5%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 767px) {
+    .block-top-laptop {
+        width: 100%;
+        padding: 0 10%;
+        right: 0;
+        left: 0;
+    }
+}
+
 .block-top-laptop:hover {
+    -webkit-filter: brightness(0.9);
     filter: brightness(0.9);
 }
 
 .block-top-laptop > img {
     width: 100%;
 }
-
-
 
 /* >> Block fiveproducts
 -------------------------------------------*/
