@@ -418,6 +418,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     filter: brightness(0.9);
 }
 
+.block-top-laptop:focus {
+    outline: none;
+}
+
 .block-top-laptop > img {
     width: 100%;
 }
