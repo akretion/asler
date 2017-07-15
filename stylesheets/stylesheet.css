@@ -344,7 +344,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-    padding: 0 0 55% 0;
+    padding: 0 0 51% 0;
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -362,7 +362,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     width: 500px;
     height: auto;
     position: absolute;
-    top: 12%;
+    top: 7.5%;
     left: calc(50% - 250px);
 }
 
