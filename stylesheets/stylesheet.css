@@ -2134,6 +2134,8 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Acacia Lakeland"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Acacia_Lakeland.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Autre couleur avec supplément"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Autrecouleur.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Couleurs spéciales >>"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Autrecouleur.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Ral Classique"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Classique.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Ral Spécifique"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Specifique.jpg'); }
 
 
 
