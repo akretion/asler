@@ -2137,7 +2137,9 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Ral Classique"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Classique.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Ral Specifique"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Specifique.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Autre couleur à préciser"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/CouleurAP.jpg'); }
-
+#sidebar label.css_attribute_color[style="background-color:XTrem Tissu"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/xtrem.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Simili Standard"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/similistandard.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Simili NF"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/similinonfeu.jpg'); }
 
 
 
