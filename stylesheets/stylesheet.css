@@ -2149,8 +2149,11 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Vert marbré"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/Vert_marbre.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:YMCKO"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/YMCKO.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:YMCKOK"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/YMCKOK.jpg'); }
-
-
+#sidebar label.css_attribute_color[style="background-color:Assortis pastel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_PASTEL.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assorti pastel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_PASTEL.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assortiment coloris pastel"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_PASTEL.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Coloris intenses"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_VIF.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Assorti intense"] { background-image: url('https://asler.akretion.com/img_perso/Site/Bouton/ASSORTI_VIF.jpg'); }
 
 
 
