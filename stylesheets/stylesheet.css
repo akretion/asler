@@ -927,10 +927,26 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     display: inline-block;
     vertical-align: top;
     width: 33.333%;
-    margin: 20px 0px 5px 0px;
+    margin: 0 0 25px 0;
     position: relative;
     top: 0;
     left: 0;
+}
+
+.oe_website_sale .tab-pane > div:nth-child(1) {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .oe_website_sale .tab-pane > div:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .oe_website_sale .tab-pane > div:nth-child(3) {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 1199px) {
