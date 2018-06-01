@@ -429,9 +429,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 /* >> Block fiveproducts
 -------------------------------------------*/
 
-.block-fiveproducts {
-    background: #ecf0f1;
-    padding-top: 70px;
+.block-fiveproducts>.container {
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 @media (min-width: 768px) {
