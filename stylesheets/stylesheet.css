@@ -397,8 +397,8 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     display: block;
     width: calc(200px + 13%);
     position: absolute;
-    bottom: -1px;
-    right: 5%;
+    top: 50px;
+    right: 0;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
