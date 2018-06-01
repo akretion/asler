@@ -374,17 +374,11 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 }
 
 .block-top-text {
-    width: 60%;
+    width: 80%;
     height: auto;
     position: absolute;
-    left: 5%;
-    bottom: 4%;
-}
-
-@media (max-width: 1400px) {
-    .block-top-text {
-        width: 58%;
-    }
+    right: 10%;
+    bottom: 10%;
 }
 
 @media (max-width: 991px) {
