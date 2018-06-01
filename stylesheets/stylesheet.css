@@ -493,8 +493,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 
 /* Heading */
 
-.block-news .title-homepage {
-    margin-top: 220px !important;
+@media (min-width: 1200px) {
+  .block-news .title-homepage {
+      margin-top: 220px !important;
+  }
 }
 
 /* Banner */
