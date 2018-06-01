@@ -389,10 +389,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 
 .block-top-laptop {
     display: block;
-    width: calc(200px + 13%);
+    width: calc(200px + 10%);
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 1.5%;
+    right: 10px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -489,6 +489,12 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     background-position: center center !important;
     background-repeat: no-repeat !important;
     text-align: center !important;
+}
+
+/* Heading */
+
+.block-news .title-homepage {
+    margin-top: 220px !important;
 }
 
 /* Banner */
