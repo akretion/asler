@@ -389,9 +389,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 
 .block-top-laptop {
     display: block;
-    width: calc(200px + 10%);
-    position: absolute;
-    top: 1.5%;
+    width: calc(180px + 8%);
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
     right: 10px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
