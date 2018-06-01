@@ -344,7 +344,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-    padding: 0 0 48% 0;
+    padding: 0 0 42% 0;
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -359,11 +359,11 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 }
 
 .block-top-banner {
-    width: 500px;
+    width: 450px;
     height: auto;
     position: absolute;
     top: 1.5%;
-    left: calc(50% - 250px);
+    left: calc(50% - 225px);
 }
 
 @media (max-width: 767px) {
@@ -378,7 +378,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     height: auto;
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    bottom: 15%;
 }
 
 @media (max-width: 991px) {
@@ -439,12 +439,12 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: -60px;
+    top: -77px;
     left: 0;
 }
 
 .fiveproducts-flexbox-item {
-    width: calc(20% - 20px);
+    width: calc(20% - 15px);
     background: #ffffff;
     border: 1px solid #dae1e9;
     border-radius: 4px;
@@ -452,8 +452,8 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 }
 
 .fiveproducts-flexbox-item>p {
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 14px;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.4px;
@@ -467,7 +467,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 .fiveproducts-flexbox-item:nth-child(5)>p { color: #8e44ad; }
 
 .fiveproducts-flexbox-item>div {
-    height: 150px;
+    height: 125px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
