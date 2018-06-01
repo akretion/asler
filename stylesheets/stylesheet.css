@@ -391,7 +391,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     display: block;
     width: calc(180px + 8%);
     position: fixed;
-    z-index: 9999;
+    z-index: 1;
     bottom: 0;
     right: 10px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -403,6 +403,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     .block-top-laptop {
         width: 100%;
         padding: 0 10%;
+        position: absolute;
         right: 0;
         left: 0;
     }
