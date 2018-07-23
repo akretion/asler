@@ -852,15 +852,15 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 }
 
 /* nav-tabs border color */
-.oe_website_sale a[aria-controls="tab_0"]  { display: none; }
+.oe_website_sale a[aria-controls="tab_0"]  { display: none !important; }
 .oe_website_sale a[aria-controls="tab_1"]  { border-bottom: 4px solid #166BA2 !important; }
-.oe_website_sale a[aria-controls="tab_2"]  { border-bottom: 4px solid #1691BE !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_2"]  { border-bottom: 4px solid #1691BE !important; }
 .oe_website_sale a[aria-controls="tab_3"]  { border-bottom: 4px solid #e74c3c !important; }
 .oe_website_sale a[aria-controls="tab_4"]  { border-bottom: 4px solid #FFBA00 !important; }
 .oe_website_sale a[aria-controls="tab_5"]  { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_6"]  { border-bottom: 4px solid #8e44ad !important; }
-.oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #166BA2 !important; padding: 17px 6px 0px 6px !important; }
-.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #e74c3c !important; padding: 17px 6px 0px 6px !important; }
+.oe_website_sale a[aria-controls="tab_7"]  { border-bottom: 4px solid #166BA2 !important; }
+.oe_website_sale a[aria-controls="tab_8"]  { border-bottom: 4px solid #e74c3c !important; }
 .oe_website_sale a[aria-controls="tab_9"]  { border-bottom: 4px solid #FFBA00 !important; }
 .oe_website_sale a[aria-controls="tab_10"] { border-bottom: 4px solid #25C289 !important; }
 .oe_website_sale a[aria-controls="tab_11"] { border-bottom: 4px solid #8e44ad !important; }
@@ -870,10 +870,10 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 .oe_website_sale a[aria-controls="tab_15"] { border-bottom: 4px solid #444B54 !important; }
 .oe_website_sale a[aria-controls="tab_16"] { border-bottom: 4px solid #444B54 !important; }
 
-
 @media (min-width: 992px) {
-    .oe_website_sale a[aria-controls="tab_7"] {
-        max-width: 114px !important;
+    .oe_website_sale .nav.nav-tabs > li > a {
+        display: flex;
+        align-items: center;
     }
 }
 
