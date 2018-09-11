@@ -369,7 +369,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 @media (max-width: 767px) {
     .block-top-banner {
         width: 90%;
-        top 10%;
+        top: 10%;
         left: 5%;
     }
 }
