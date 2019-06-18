@@ -860,6 +860,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     background: #9BB4B9;
     color: #ffffff;
     border: none;
+    border-bottom: 4px solid transparent;
 }
 
 /* nav-tabs active background */
