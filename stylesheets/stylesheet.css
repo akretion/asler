@@ -944,7 +944,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     .oe_website_sale .nav-tabs > li.active > a,
     .oe_website_sale .nav-tabs > li.active > a:hover,
     .oe_website_sale .nav-tabs > li.active > a:focus {
-        background: #95a5a6;
+        background: #95a5a6 !important;
     }
 
 }
