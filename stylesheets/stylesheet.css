@@ -488,6 +488,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 
 .block-news {
     background: #ecf0f1;
+    padding-top: 240px;
 }
 
 /* Heading */
@@ -503,7 +504,9 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 /* Ifrane */
 
 .block-news iframe {
+    display: block;
     width: 100%;
+    height: 750px;
     border: none;
 }
 
