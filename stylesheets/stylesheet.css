@@ -521,7 +521,7 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 
 @media (max-width: 767px) {
     .block-news iframe {
-        height: 500px;
+        height: 1000px;
     }
 }
 
