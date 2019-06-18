@@ -761,9 +761,14 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 ================================================================== */
 
 .oe_website_sale .nav-tabs {
-    display: flex;
     height: 56px;
     background: #f8f9f9;
+}
+
+@media (min-width: 992px) {
+    .oe_website_sale .nav-tabs {
+        display: flex;
+    }
 }
 
 @media (max-width: 1199px) {
