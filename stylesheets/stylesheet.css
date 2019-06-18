@@ -497,29 +497,37 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 .block-news iframe {
     display: block;
     width: 100%;
-    height: 750px;
+    height: 730px;
     border: none;
 }
 
-/* Social link */
+/* Social */
 
-/*
-.block-news-link-wrapper {
-    text-align: center;
+.block-news-social {
+    color: #166BA2;
+    font-size: 1.9rem;
+    margin-bottom: 25px;
 }
 
-.block-news-link-wrapper .btn-facebook {
-    margin-top: 70px;
-    margin-bottom: 90px;
-    font-size: 2.1rem;
+.block-news-social a {
+    display: inline-block;
+    color: #166BA2;
+    border: 2px solid #166BA2;
+    border-radius: 30px;
+    padding: 4px 14px;
+    margin: 25px 15px;
 }
 
-.block-news-link-wrapper .btn-facebook::before {
-    content: '\f09a';
-    padding-right: 13px;
-    font-size: 2.5rem;
+.block-news-social a:hover,
+.block-news-social a:active,
+.block-news-social a:focus {
+    color: #1691BE;
+    border-color: #1691BE;
 }
-*/
+
+.block-news-social .fa {
+    padding-right: 5px;
+}
 
 /* >> Block featured
 -------------------------------------------*/
