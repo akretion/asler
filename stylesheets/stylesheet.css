@@ -861,6 +861,14 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     border-bottom: 4px solid transparent;
 }
 
+@media (max-width: 991px) {
+    .oe_website_sale .nav-tabs > li.active > a,
+    .oe_website_sale .nav-tabs > li.active > a:hover,
+    .oe_website_sale .nav-tabs > li.active > a:focus {
+        background: #95a5a6;
+    }
+}
+
 /* nav-tabs active background */
 .oe_website_sale .nav-tabs > li.active:nth-child(1) > a, .oe_website_sale .nav-tabs > li.active:nth-child(1) > a:hover, .oe_website_sale .nav-tabs > li.active:nth-child(1) > a:focus { background: #444B54; }
 .oe_website_sale .nav-tabs > li.active:nth-child(2) > a, .oe_website_sale .nav-tabs > li.active:nth-child(2) > a:hover, .oe_website_sale .nav-tabs > li.active:nth-child(2) > a:focus { background: #166BA2; }
