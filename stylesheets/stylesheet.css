@@ -487,21 +487,20 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
 -------------------------------------------*/
 
 .block-news {
-    background: #ecf0f1;
-    padding-top: 240px;
+    background: #ffffff;
+    text-align: center;
+    padding-top: 120px;
 }
 
 /* Heading */
 
-/*
 @media (min-width: 1200px) {
   .block-news .title-homepage {
       margin-top: 220px !important;
   }
 }
-*/
 
-/* Ifrane */
+/* Iframe */
 
 .block-news iframe {
     display: block;
