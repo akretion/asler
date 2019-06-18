@@ -492,14 +492,6 @@ html[data-view-xmlid="website.homepage"] .oe_handles {
     padding-top: 120px;
 }
 
-/* Heading */
-
-@media (min-width: 1200px) {
-  .block-news .title-homepage {
-      margin-top: 220px !important;
-  }
-}
-
 /* Iframe */
 
 .block-news iframe {
