@@ -2251,7 +2251,9 @@ p.variant_description.visible::before {
 #sidebar label.css_attribute_color[style="background-color:Chêne Colorado GX"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Chene_Colorado.jpg'); }
 #sidebar label.css_attribute_color[style="background-color:Assorti métal"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/AssortiMetal.png'); }
 #sidebar label.css_attribute_color[style="background-color:Assortiment couleurs classiques"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/AssortClassique.png'); }
-
+#sidebar label.css_attribute_color[style="background-color:Noyer clair"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Noyer clair.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Noyer foncé"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Noyer foncé.jpg'); }
+#sidebar label.css_attribute_color[style="background-color:Miel"] { background-image: url('https://www.asler.com/img_perso/Site/Bouton/Miel.jpg'); }
 
 
 
