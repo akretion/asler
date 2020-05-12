@@ -1295,6 +1295,7 @@ span.input-group-btn > a.a-submit {
 .oe_product.oe_ribbon_exclusivite .ribbon { background: #1691BE; }
 .oe_product.oe_ribbon_seller      .ribbon { background: #8e44ad; }
 .oe_product.oe_ribbon_asler       .ribbon { background: #444B54; }
+.oe_product.oe_ribbon_en14476     .ribbon { background: #7fb40f; }
 
 .oe_product.oe_ribbon_promo .ribbon-wrapper { display: none; }
 
@@ -1304,7 +1305,8 @@ span.input-group-btn > a.a-submit {
 .oe_product.oe_ribbon_solde       .ribbon-wrapper-4,
 .oe_product.oe_ribbon_exclusivite .ribbon-wrapper-5,
 .oe_product.oe_ribbon_seller      .ribbon-wrapper-6,
-.oe_product.oe_ribbon_asler       .ribbon-wrapper-7 {
+.oe_product.oe_ribbon_asler       .ribbon-wrapper-7 
+.oe_product.oe_ribbon_en14476     .ribbon-wrapper-8 {
     display: block;
 }
 
